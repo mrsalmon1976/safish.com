@@ -13,20 +13,13 @@ author: Matt Salmon
 
 # --- List of links in the navigation bar --- #
 
-navbar-links:
-  Blog: "blog"
-    - Home
-    - All Articles
-    - Sticky
-  Software:
-    - PhotoTool
-  Online Tools
-    - Mortgage Calculator
-    - Compound Interest Calculator
-    - Future Value Calculator
-    - Future Value Annuity Calculator
-  Links
 
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Links: "links"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
