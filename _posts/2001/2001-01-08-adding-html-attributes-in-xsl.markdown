@@ -9,8 +9,8 @@ For example, if you want to add an image using the PRODUCTIMAGE element from you
 
 
 ```xml
-	<IMG>
-	  <xsl:attribute name="SRC"><xsl:value-of select="PRODUCTIMAGE" /></xsl:attribute>
-	</IMG>
+<IMG>
+  <xsl:attribute name="SRC"><xsl:value-of select="PRODUCTIMAGE" /></xsl:attribute>
+</IMG>
 ```
 
