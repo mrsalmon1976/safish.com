@@ -7,8 +7,9 @@ This site uses [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll).
 - [Supported parameters](#supported-parameters)
 
 # Useful Links
-[Markdown Guide](https://www.markdownguide.org/basic-syntax/)
-[Jekyll Front Matter](https://jekyllrb.com/docs/front-matter/) - although see below for complete list for Beautiful Jekyll
+- [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+- [Jekyll Front Matter](https://jekyllrb.com/docs/front-matter/) - although see below for complete list for Beautiful Jekyll
+- [Rouge Syntax Highlighter](https://github.com/rouge-ruby/rouge/tree/master/lib/rouge) 
 
 # Customizing parameters for each page
 
