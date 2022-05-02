@@ -1,12 +1,14 @@
 ---
 layout: post
-title: DOS : Ports Being Used
+title: DOS Ports Being Used
 date: 2001-01-08 00:00:04
 tags: [dos]
 published: true
 ---
 
-```dos
+Use the following command to see which ports are being used:
+
+```batchfile
   netstat -ar|more
 ```
 
