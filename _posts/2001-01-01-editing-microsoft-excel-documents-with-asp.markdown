@@ -2,9 +2,9 @@
 layout: post
 title: Editing Microsoft Excel Documents with ASP
 date: 2001-01-08 00:00:00
-cover-img: ../assets/img/path.jpg
+cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
-share-img: ../assets/img/path.jpg
+share-img: /assets/img/path.jpg
 tags: [asp]
 ---
 
