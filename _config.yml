@@ -15,11 +15,19 @@ author: Matt Salmon
 
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Blog:
+    - Home: "/"
+    - All Articles: "all-articles"
+    - Sticky: "sticky-articles
+  Software:
+    - PhotoTool: "software/phototool"
+  Online Tools:
+    - "Mortgage Calculator" : "tools/mortgage-calculator"
+    - "Compount Interest Calculator" : "tools/compound-interest-calculator"
+    - "Future Value Calculator" : "tools/future-value-calculator"
+    - "Future Value Annuity Calculator" : "tools/future-value-annuity-calculator"
   Links: "links"
+  About Me: "aboutme"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
