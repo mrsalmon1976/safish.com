@@ -2,7 +2,7 @@
 layout: post
 title: Halting Program Execution with VB6
 date: 2001-01-08 00:00:06
-tags: [vb.visualbasic]
+tags: [vb,visualbasic]
 published: true
 ---
 
