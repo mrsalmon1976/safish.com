@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VB6 HTTP Transfers
+title: Sending HTTP Requests using the MSXML2 object
 date: 2001-01-08 00:00:07
 tags: [vb,visualbasic]
 published: true
