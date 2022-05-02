@@ -18,7 +18,7 @@ navbar-links:
   Blog:
     - Home: "/"
     - All Articles: "all-articles"
-    - Sticky: "sticky-articles
+    - Sticky: "sticky-articles"
   Software:
     - PhotoTool: "software/phototool"
   Online Tools:
@@ -27,7 +27,7 @@ navbar-links:
     - "Future Value Calculator" : "tools/future-value-calculator"
     - "Future Value Annuity Calculator" : "tools/future-value-annuity-calculator"
   Links: "links"
-  About Me: "aboutme"
+  About: "about"
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
