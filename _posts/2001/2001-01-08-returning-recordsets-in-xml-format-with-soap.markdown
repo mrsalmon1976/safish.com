@@ -3,6 +3,7 @@ layout: post
 title: Returning recordsets in XML format with SOAP
 date: 2001-01-08 00:00:03
 tags: [asp]
+published: false
 ---
 
 Should you ever require to generate a download file from ASP, where the file doesn't actually exist, but is 
