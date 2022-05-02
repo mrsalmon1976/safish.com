@@ -8,7 +8,7 @@ published: true
 
 Use the following command to see which ports are being used:
 
-```dos
+```batchfile
   netstat -ar|more
 ```
 
