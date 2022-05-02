@@ -2,13 +2,13 @@
 layout: post
 title: VB6 HTTP Transfers
 date: 2001-01-08 00:00:07
-tags: [vb.visualbasic]
+tags: [vb,visualbasic]
 published: true
 ---
 
 The MSXML2 Library contains the class **ServerXMLHTTP30** which can be used to send HTTP requests and posts over the web.
 
-=Example 1: Executing an ASP page on a remote web server=
+**Example 1: Executing an ASP page on a remote web server**
 
 ```vb
   Dim objNetRequest As MSXML2.ServerXMLHTTP30
@@ -24,7 +24,7 @@ The MSXML2 Library contains the class **ServerXMLHTTP30** which can be used to s
   Set objNetRequest = Nothing
 ```
 
-=Example 2: Posting a form to a remote page=
+**Example 2: Posting a form to a remote page**
 
 ```vb
   Dim objNetRequest As MSXML2.ServerXMLHTTP30
