@@ -1,6 +1,6 @@
 ---
 layout: post
-title: C# : Drag and Drop Files
+title: C# - Drag and Drop Files
 date: 2001-08-20 00:00:00
 tags: [c#]
 published: true
