@@ -2,7 +2,7 @@
 layout: post
 title: Invisible updates in a RichTextBox
 date: 2001-07-08 00:00:00
-tags: [csharp]
+tags: [c#]
 published: true
 ---
 
