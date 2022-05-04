@@ -55,12 +55,12 @@ public class myClass extends Dialog implements Runnable {
 Even more simply, if you want to run a single line in your class as a thread, you can do the following (taking away the pain of implementing the Runnable interface):
 
 ```java
-  public void doStuff() {
-    Thread runner = new Thread() {
-      public void run() {
-         // do thread stuff here
-      }
-    };
-    runner.start();
-  }
+public void doStuff() {
+	Thread runner = new Thread() {
+		public void run() {
+			// do thread stuff here
+		}
+	};
+	runner.start();
+}
 ```
