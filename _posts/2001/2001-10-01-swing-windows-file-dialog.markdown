@@ -2,7 +2,7 @@
 layout: post
 title: Java / Swing - Showing Windows File Dialog Box
 date: 2001-10-01 00:00:00
-tags: [c#]
+tags: [java]
 published: true
 ---
 

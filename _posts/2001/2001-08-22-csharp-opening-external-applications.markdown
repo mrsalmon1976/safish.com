@@ -10,7 +10,7 @@ Opening files from within your application that you do not want to handle within
 
 **Eg: to open the user's default browser to a web site:**
   
-```chsarp
+```csharp
   try 
   {
     System.Diagnostics.Process.Start("http://yoursite.com");
