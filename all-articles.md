@@ -1,6 +1,6 @@
 ---
 layout: all-articles
-title: software.safish.com - all blog posts
-subtitle: Lists all blog posts on software.safish.com
+title: All blog posts
+subtitle: This is a list of all blog posts on software.safish.com - since 2001 (with some completely pointless ones removed along the way).
 ---
 
