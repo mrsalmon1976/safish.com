@@ -12,8 +12,10 @@ Locate the pg_dump file (usually located in /usr/local/pgsql/bin/ and run the fo
 
 ```
 pg_dump -s -f filename_schema.dmp -U username database_name
-pg_dump -a -f filename_data.dmp -U username database_nameto create the schema and data dumps respectively. This will create text files with all the necessary SQL statements required to restore the database using the PostgreSQL restore feature.
+pg_dump -a -f filename_data.dmp -U username database_name
 ```
+
+to create the schema and data dumps respectively. This will create text files with all the necessary SQL statements required to restore the database using the PostgreSQL restore feature.
 
 ## Dropping the existing database
 
