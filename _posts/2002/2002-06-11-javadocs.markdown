@@ -1,0 +1,27 @@
+---
+layout: post
+title: Javadocs
+date: 2002-06-11 00:00:00
+tags: [java]
+published: true
+---
+
+Generating javadocs is very easy as long as you comment your code properly. Full help can be obtaining by just type javadoc, but I tend to use the following command when generating my javadocs:
+
+```batchfile
+javadoc <packagefolder>*.java -author -d <targetfolder>
+```
+
+which will result in all java files in my packagefolder being documented in the targetfolder.
+
+**Comments**
+
+All javadoc comments should be between a /** and a */. The following tags can be used:
+
+ - **@author** - author of a class
+- **@param** - parameter
+- **@return** - what the method returns
+- **@see** - see another method/class e.g. @see #otherMethod will create a hyperlink to another method
+- **@throws** - for constructors that throw exceptions (methods do not need this - Javadoc takes care of this)
+- **@version** - version number
+- **<code>....</code>** tags can be used to identify code-related text (e.g. when referring to a parameter
