@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java - Jars and Cabs
+title: Java - Reading properties/settings from a file
 date: 2002-05-14 00:00:00
 tags: [java]
 published: true
