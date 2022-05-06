@@ -6,13 +6,13 @@ tags: [asp,dos]
 published: true
 ---
 
-# DOS
+## DOS
 
 ```batchfile
 nslookup <ip_address>
 ```
 
-# ASP
+## ASP
 
 You need Windows Script Host 2.0 or higher installed in order to do this, but on a Windows NT or Windows 2000 machine you can perform reverse DNS lookups using the following code:
 
