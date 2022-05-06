@@ -9,7 +9,7 @@ This site uses [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll).
 # Useful Links
 - [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
 - [Jekyll Front Matter](https://jekyllrb.com/docs/front-matter/) - although see below for complete list for Beautiful Jekyll
-- [Rouge Syntax Highlighter](https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/lexers) 
+- [Rouge Syntax Highlighter](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers) 
 
 # Customizing parameters for each page
 
