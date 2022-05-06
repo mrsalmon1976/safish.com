@@ -24,4 +24,4 @@ All javadoc comments should be between a /** and a */. The following tags can be
 - **@see** - see another method/class e.g. @see #otherMethod will create a hyperlink to another method
 - **@throws** - for constructors that throw exceptions (methods do not need this - Javadoc takes care of this)
 - **@version** - version number
-- **<code>....</code>** tags can be used to identify code-related text (e.g. when referring to a parameter
+- **&lt;code&gt;....&lt;/code&gt;** tags can be used to identify code-related text (e.g. when referring to a parameter
