@@ -32,5 +32,7 @@ To restore the above database, you will need to create a new database and then r
 ```
 createdb --username=<user> database_name
 psql -e -f filename_schema.dmp -U <user> <database_name>
-psql -e -f filename_data.dmp -U <user> <database_name>to restore the schema, and then the data.
+psql -e -f filename_data.dmp -U <user> <database_name>
 ```
+
+to restore the schema, and then the data.
