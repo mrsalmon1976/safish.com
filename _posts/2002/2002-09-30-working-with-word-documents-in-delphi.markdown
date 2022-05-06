@@ -9,7 +9,7 @@ published: true
 
 The following shows how to programmatically open, modify, save and close a word document.
 
-```delphi
+```pascal
 var
   oWordApp: Variant;
   oBookmark: Variant;
