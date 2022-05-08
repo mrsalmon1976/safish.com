@@ -71,5 +71,5 @@ Enter amounts as whole numbers, or in the case of decimals only, include the dec
 
 	</div>
 </form>
-<script defer src="{{ absolute_url }}/assets/js/mortgage-calculator.js"></script>.
+<script defer src="{{ "/assets/js/mortgage-calculator.js" | absolute_url }}"></script>.
 
