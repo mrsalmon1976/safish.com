@@ -63,7 +63,7 @@ Enter amounts as whole numbers, or in the case of decimals only, include the dec
 	</div>
 
 	<div class="form-group row">
-		<label for="interestOnly" class="col-sm-4 col-form-label">Interest rate</label>
+		<label for="interestOnly" class="col-sm-4 col-form-label">Interest only</label>
 		<div class="col-sm-8 controls">
 			<input v-model.number="interestOnly" class="form-control" type="text" name="interestOnly" placeholder="" readonly="readonly">
 		</div>
