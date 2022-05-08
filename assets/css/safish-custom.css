@@ -1,0 +1,11 @@
+---
+layout: null
+---
+
+.intro-header .page-heading h1 {
+  font-size: 4rem;
+}
+.invalid-feedback {
+	display: inline;
+}
+
