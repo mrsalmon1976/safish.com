@@ -4,7 +4,7 @@ layout: page
 
 {{ content }}
 
-{% assign postsByYear = site.posts reversed | group_by_exp:"post", "post.date | date: '%Y'" %}
+{% assign postsByYear = site.posts | reversed | group_by_exp:"post", "post.date | date: '%Y'" %}
 {% for year in postsByYear %}
   <h1>{{ year.name }}</h1>
     <ul>

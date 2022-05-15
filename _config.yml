@@ -28,6 +28,8 @@ navbar-links:
     - "Future Value Annuity Calculator" : "tools/future-value-annuity-calculator"
   Links: "links"
   About: "about"
+  
+include: ['_pages','_pages/tools']
 # --- Logo --- #
 
 # Image to show in the navigation bar - works best with a square image
@@ -138,6 +140,7 @@ footer-hover-col: "#0085A1"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
+#  - https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.js
 #  - "/assets/js/custom-script.js"
 
 # --- Web Analytics Section --- #
