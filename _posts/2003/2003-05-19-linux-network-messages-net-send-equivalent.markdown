@@ -8,7 +8,7 @@ published: true
 
 In Windows, you can use _net send_ to send instant messages to another machine.
 
-```dos
+```batchfile
 net send machinename message 
 ```
 
