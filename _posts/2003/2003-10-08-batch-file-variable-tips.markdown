@@ -10,7 +10,7 @@ published: true
 
 If you want to run another batch command and want to pass it all the variables your batch file receives, you can use a loop to catch all the variables into a single string, and then open the other batch file with those same variables:
 
-```dos
+```batchfile
   @ECHO OFF
   SET tmp=SecondBatchFile
   GOTO LOOPFILES
@@ -30,7 +30,7 @@ If you want to run another batch command and want to pass it all the variables y
 
 On Windows NT, use the %time% and %date% values to manipulate dates and times.
 
-```dos
+```batchfile
 SET hour=%time:~0,2%
 SET min=%time:~3,2%
 SET sec=%time:~6,2%
