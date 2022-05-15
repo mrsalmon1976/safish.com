@@ -10,23 +10,21 @@ published: true
 
 Given the binary value 1000:
 
-```
-1000 
-  = 1 * 2<sup>3</sup> + 0 * 2<sup>2</sup> + 0 * 2<sup>1</sup> + 0 * 2<sup>0</sup>
-    = 2<sup>3</sup>
-      = 8 (decimal)
-```
+_1000_ <br/>
+  _= 1 * 2<sup>3</sup> + 0 * 2&sup2; + 0 * 2<sup>1</sup> + 0 * 2<sup>0</sup>_<br/>
+    _= 2<sup>3</sup>_<br/>
+      _= 8 (decimal)_<br/>
+
 
 # Converting decimal to binary
 
 Given the decimal value 10:
 
-```
-10
-  = 2<sup>3</sup> + 2<sup>1</sup> 
-    = 1 * 2<sup>3</sup> + 0 * 2<sup>2</sup> + 1 * 2<sup>1</sup> + 0 * 2<sup>0</sup> 
-      = 1010 (binary)
-```
+_10_<br/>
+  _= 2<sup>3</sup> + 2<sup>1</sup>_<br/>
+    _= 1 * 2<sup>3</sup> + 0 * 2<sup>2</sup> + 1 * 2<sup>1</sup> + 0 * 2<sup>0</sup>_<br/>
+      _= 1010 (binary)_<br/>
+
 
 An easier way to work this out is, for example, given a decimal number of 11: 
  - divide the decimal number by 2, recording the quotient and remainder in the next row
