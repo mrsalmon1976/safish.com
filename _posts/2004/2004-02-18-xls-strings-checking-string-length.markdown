@@ -6,7 +6,7 @@ tags: [xsl]
 published: true
 ---
 
-## Checking string length
+In your XSL transforms, you can add logic dependent on string length as follows:
 
 ```xml
   <xsl:choose>
