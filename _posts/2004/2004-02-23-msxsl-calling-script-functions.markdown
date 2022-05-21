@@ -26,7 +26,7 @@ With MSXSL, you can write VB6 functions to make your transformations a little ea
 
 You can also do tests against function results. For example, you pass in a value "user_privileges" to your stylesheet. Below, you can then run if tests against your function for blocks within your templates.
 
-```xsl
+```xml
 <xsl:stylesheet version="1.0" 
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:msxsl="urn:schemas-microsoft-com:xslt"
