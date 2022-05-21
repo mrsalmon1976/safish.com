@@ -8,7 +8,7 @@ published: true
 
 ## Checking string length
 
-```xsl
+```xml
   <xsl:choose>
     <xsl:when test="string-length(@sec) >= 12">
       <xsl:value-of select="substring(@sec,0,12)"/>...
