@@ -1,0 +1,13 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% assign posts = paginator.posts | default: site.posts %}
+{% for post in posts %}
+    	{% if post.categories contains "sticky" %}
+      <li><a href="{{ post.url | absolute_url }}">{{ post.title }} - {{ post.date | date: "%-d %B %Y" }}</a></li>
+      {% endif %}
+{% endfor %}
+

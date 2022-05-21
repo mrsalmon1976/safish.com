@@ -3,6 +3,7 @@ layout: post
 title: Regular Expressions Cheat Sheet
 date: 2003-04-08 00:00:00
 tags: []
+categories: [sticky]
 published: true
 ---
 
