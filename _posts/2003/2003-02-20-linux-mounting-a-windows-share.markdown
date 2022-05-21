@@ -10,5 +10,5 @@ Mounting a folder on Windows machine
 
 ```shell
   mkdir /mnt/targetfolder
-  /usr/bin/smbmount //WindowsMachineName/folder /mnt/targetfolder -o username=xxx,password=yyy
+  /usr/bin/smbmount //MachineName/folder /mnt/targetfolder -o username=xxx,password=yyy
 ```

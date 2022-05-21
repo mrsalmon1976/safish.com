@@ -23,22 +23,31 @@ Starting mysqld daemon with databases from /usr/local/var
 030508 16:00:00 mysqld ended
 ```
 If you see this, there is a permissions problem which you need to sort out as indicated in the following step. If you do not get the "ended" message, you can skip the next step.
+
 9. You will need to change ownership of the folder displayed in the first line of the above message. For the above message, the command would be chown -R mysql.mysql /usr/local/var/.
 10. Try and start the database server again with safe_mysqld &.
 11. Change the root password with mysqladmin -uroot -h'yourmachine' password 'yourpassword'. The -h option is for the host. It is optional but if you get a message along the lines of "connect to server at 'localhost' failed" you will need to put it in with the name of your machine.
 12. You should be able to connect to the MySQL service now with mysql -uroot -p'yourpassword'. You will now be able to enter SQL commands terminated by a ';'. To exit the console, type 'q'.
 13. To automatically start MySQL on system startup is dependant on your version of Linux:
 
-Slackware:
+**Slackware**
+
+```shell
 cp support-files/mysql.server /etc/rc.d
 chmod +x /etc/rc.d/mysql.server
+```
+
 Edit your /etc/rc.d/rc.local file and add the following line to the end: /etc/rc.d/mysql.server start
 
-RedHat:
+**RedHat**
+
+```shell
 cp support-files/mysql.server /etc/rc.d/init.d
 chmod +x /etc/rc.d/init.d/mysql.server
 ln -s /etc/rc.d/init.d/mysql.server /etc/rc.d/rc3.d/S98mysql (if you boot into the console)
 ln -s /etc/rc.d/init.d/mysql.server /etc/rc.d/rc5.d/S98mysql (if you boot into X Windows)
+```
+
 Edit your /etc/rc.d/rc.local file and add the following line to the end: /etc/rc.d/mysql.server start
 
 ## Apache 1.3.2x and PHP

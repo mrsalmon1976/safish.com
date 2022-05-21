@@ -9,9 +9,9 @@ published: true
 To run command-line queries on a PostgreSQL database running on Linux, you need to locate the psql executable, connect to the database and run queries manually:
 
 ```shell
-	locate psql
-	(e.g. returns /usr/bin/psql)
-	/usr/bin/psql <database_name>
-	SELECT * FROM <table> LIMIT 200;
-	q (to quit)
+locate psql
+(e.g. returns /usr/bin/psql)
+/usr/bin/psql <database_name>
+SELECT * FROM <table> LIMIT 200;
+q (to quit)
 ```
