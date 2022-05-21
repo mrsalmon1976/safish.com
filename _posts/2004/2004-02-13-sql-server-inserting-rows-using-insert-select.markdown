@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Server : Inserting Rows Using INSERT...SELECT
+title: SQL Server - Inserting Rows Using INSERT...SELECT
 date: 2004-02-13 00:00:00
 tags: [sqlserver]
 published: true

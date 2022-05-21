@@ -1,6 +1,6 @@
 ---
 layout: post
-title: XSL strings : checking string length
+title: XSL strings - checking string length
 date: 2004-02-18 00:00:00
 tags: [xsl]
 published: true

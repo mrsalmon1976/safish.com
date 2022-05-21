@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Server : Invoking COM Components
+title: SQL Server - Invoking COM Components
 date: 2004-02-16 00:00:00
 tags: [sqlserver]
 published: true
