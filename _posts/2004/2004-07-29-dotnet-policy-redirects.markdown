@@ -35,10 +35,10 @@ In this example, the XML file is called "policy.1.0.My.Assembly.xml".
 Use the Assembly Linker tool to create the policy redirect dll:
 
 ```batchfile
-al /link:policy.1.0.My.Assembly.xml /out:policy.1.0.My.Assembly.dll /keyfile:"C:DevKeyFilessgKey.snk" /version:1.0.2.0
+al /link:policy.1.0.My.Assembly.xml /out:policy.1.0.My.Assembly.dll /keyfile:"C:\DevKeyFiles\sgKey.snk" /version:1.0.2.0
 ```
 
 **3. Add redirect to the GAC**
 
-Step 2 should have created a dll file which can then be dragged and dropped in the GAC (usually located at _C:\Win\NTassembly_).
+Step 2 should have created a dll file which can then be dragged and dropped in the GAC (usually located at _C:\WinNT\assembly_).
 

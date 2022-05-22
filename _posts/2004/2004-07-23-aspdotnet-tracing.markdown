@@ -18,13 +18,13 @@ In the page tag on your .aspx file, add the Trace="True" attribute. This will sp
 Add this to your web config:
 
 ```xml
-    <trace
-        enabled="true"
-        requestLimit="10"
-        pageOutput="false"
-        traceMode="SortByTime"
-        localOnly="true"
-    />
+<trace
+	enabled="true"
+	requestLimit="10"
+	pageOutput="false"
+	traceMode="SortByTime"
+	localOnly="true"
+/>
 ```
 
 You can then access the trace output from the web browser e.g. http://localhost/mysite/trace.axd. If you use this method, be sure 

@@ -6,8 +6,6 @@ tags: [analysis]
 published: true
 ---
 
-|   |   |
-|---|---|
 |![start](../assets/img/2004/start.gif)| The terminator symbol marks the starting or ending point of the system. It usually contains the word "Start" or "End." |
 |![action](../assets/img/2004/action.gif)| A box can represent a single step ("add two cups of flour"), or and entire sub-process ("make bread") within a larger process. |
 |![document](../assets/img/2004/document.gif)| A printed document or report. |
