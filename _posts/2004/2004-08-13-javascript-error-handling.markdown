@@ -9,7 +9,7 @@ published: true
 Error trapping with JavaScript only works for newer generation browsers. However, older browser generally 
 ignore window.onerror code, so it is worth putting in. There are two ways to do this:
 
-*Handling Errors via the window.onerror DHTML Event*
+**Handling Errors via the window.onerror DHTML Event**
 
 ```javascript
 function reportError(msg,url,line) {
@@ -21,7 +21,7 @@ function reportError(msg,url,line) {
 window.onerror = reportError;
 ```
 	
-*Handling Errors via ECMAScript 2.0 Exception Handling*
+**Handling Errors via ECMAScript 2.0 Exception Handling**
 
 ```javascript
   try {
