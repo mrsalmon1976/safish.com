@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SQL Server - Retrieving Database and Table Sizes
-date: 2004-08-23 00:00:00
+date: 2004-08-03 00:00:00
 tags: [sqlserver]
 published: true
 ---
