@@ -12,13 +12,13 @@ ignore window.onerror code, so it is worth putting in. There are two ways to do 
 *Handling Errors via the window.onerror DHTML Event*
 
 ```javascript
-    function reportError(msg,url,line) {
-      // do what you want with the message (msg), url (url) 
-      // and line number (line) here
-      return true;
-    }
+function reportError(msg,url,line) {
+  // do what you want with the message (msg), url (url) 
+  // and line number (line) here
+  return true;
+}
 
-    window.onerror = reportError;
+window.onerror = reportError;
 ```
 	
 *Handling Errors via ECMAScript 2.0 Exception Handling*

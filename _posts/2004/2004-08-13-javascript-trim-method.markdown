@@ -14,7 +14,7 @@ Regular expressions provide a slick way of trimming strings, but at the time of 
 expression implementations can be buggy in some browsers, and you may find it doesn't always 
 work. This will probably be the standard going forward.
 
-*Trimming with Regular Expressions*
+**Trimming with Regular Expressions**
 
 ```javascript
   // Add a function called trim as a method of the prototype 
@@ -29,7 +29,7 @@ work. This will probably be the standard going forward.
 For now, a more reliable way is to just use the substring method and just loop through the 
 string characters. The following three methods provide a left trim, right trim and full trim:
 
-*Trimming using substrings*
+**Trimming using substrings**
 
 ```javascript
   // remove leading whitespace

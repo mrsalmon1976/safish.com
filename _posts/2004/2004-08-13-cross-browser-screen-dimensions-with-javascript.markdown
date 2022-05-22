@@ -20,7 +20,7 @@ screen.width
 
 However, in order to calculate the size of the screen actually showing, you need to make the following calls AFTER the page has loaded:
 
-*Netscape*
+**Netscape**
 
 ```javascript
 // gets the size of the visible window
@@ -31,7 +31,7 @@ document.width
 document.height
 ```
 
-*Internet Explorer*
+**Internet Explorer**
 
 ```javascript
 // gets the size of the visible window
@@ -42,7 +42,7 @@ document.body.scrollHeight
 document.body.scrollWidth
 ```
 
-*Example:* You want a div to stretch from top to bottom:
+**Example:** You want a div to stretch from top to bottom:
 
 ```javascript
   var oFill = document.getElementById("mnuFill");
