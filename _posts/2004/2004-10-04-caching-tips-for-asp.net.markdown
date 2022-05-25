@@ -18,14 +18,15 @@ if (ds == null) {
 	Cache.Insert("MyInfo", ds, Caching.CacheDependency(MapPath("MyInfo.xml")));
 }
 // do whatever you want with the dataset here...
-DropDownList1.DataSource = ds;  ...
+DropDownList1.DataSource = ds;  
+...
 ```
   
 ## Output Caching
 
 As per the microsoft documentation, pages can be cached on the server with the following:
 
-````html
+```html
 <%@ OutputCache Duration="60" VaryByParam="None" Location="Server: %>
 ```
 
