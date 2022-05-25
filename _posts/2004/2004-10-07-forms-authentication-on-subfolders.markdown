@@ -32,7 +32,7 @@ In the main section of your config file:
 
 At the bottom of your config file (outside the system.web tag):
 
-```zml
+```xml
 <!-- allows access to the forum folder for the authenticated user MattS only -->
 <location path="admin">  
 	<system.web>   
