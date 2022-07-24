@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SQL Server's OPENXML - Inserting XML rows into a table
-date: 2004-10-11 00:00:00
+date: 2004-10-11 00:00:01
 tags: [sqlserver]
 published: true
 ---
