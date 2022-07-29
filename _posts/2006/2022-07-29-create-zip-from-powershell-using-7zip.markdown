@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create a zip file from powershell using 7zip
-date: 2006-07-29 17:06:00
+date: 2022-07-29 17:06:00
 tags: [powershell,7zip]
 published: true
 ---
