@@ -16,6 +16,5 @@ if ($LASTEXITCODE -ne 0)
 { 
 	Write-Output "Failed to zip $fileSource" 
 	Throw "Failed to zip file $fileSource"
-	Exit 1
 }
 ```
