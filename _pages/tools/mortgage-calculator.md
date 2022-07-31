@@ -34,10 +34,10 @@ Enter amounts as whole numbers, or in the case of decimals only, include the dec
 			<div class="input-group">
 				<input v-model.number="loanYears" v-on:keyup="onLoanYearsKeyUp" v-on:change="onLoanYearsKeyUp" class="form-control" v-bind:class="{ 'is-valid': loanYearsState == 1, 'is-invalid': loanYearsState == 0 }" type="number" size="3" maxlength="2" name="loan_length" placeholder="" step="1">
 				<div class="input-group-apppend">
-          <span class="input-group-text">years</span>
-        </div>
-     </div>
-				<div v-if="loanYearsState == 0" class="invalid-feedback">Length of loan must be greater than 0 and less than 100</div>
+					<span class="input-group-text">years</span>
+				</div>
+			</div>
+			<div v-if="loanYearsState == 0" class="invalid-feedback">Length of loan must be greater than 0 and less than 100</div>
 		</div>
 	</div>
 	<div class="form-group row">
