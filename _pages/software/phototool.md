@@ -4,13 +4,14 @@ title: PhotoTool
 permalink: /software/phototool
 ---
 
+<p>
 PhotoTool is a simple image processing tool designed specifically for web 
 sites.  It takes a batched group of photos, and resizes them to a 
 specified image size, and (optionally) generates thumbnails for the 
 images.
+</p>
 
-
-==Features==
+<h4>Features</h4>
 
 <ul type="square">
 	<li> Allows user to select multiple images to resize
@@ -32,4 +33,6 @@ images.
 <img src="/images/screen_phototool.png" border="0" alt="" width="681" height="533">
 </p>
 <br />
+<img src="{{ 'assets/img/software/screen_phototool.png' | relative_url }}" alt="Not found" />
+
 <a href="https://github.com/mrsalmon1976/PhotoTool/releases/latest" class="main">Download the latest version</a>
