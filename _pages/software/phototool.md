@@ -30,9 +30,7 @@ images.
 <br />
 <h4>Screenshot</h4>
 <p>
-<img src="/images/screen_phototool.png" border="0" alt="" width="681" height="533">
+<img src="{{ 'assets/img/software/screen_phototool.png' | relative_url }}" alt="PhotoTool screenshot" />
 </p>
 <br />
-<img src="{{ 'assets/img/software/screen_phototool.png' | relative_url }}" alt="Not found" />
-
 <a href="https://github.com/mrsalmon1976/PhotoTool/releases/latest" class="main">Download the latest version</a>
