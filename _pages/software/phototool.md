@@ -14,18 +14,18 @@ images.
 <h4>Features</h4>
 
 <ul type="square">
-	<li> Allows user to select multiple images to resize
-	<li> Optional thumbnail generation
-	<li> Option to replace spaces with underscores
-	<li> Specify longest side of both image and thumbnails
-	<li> Adjust output image quality
+	<li> Allows user to select multiple images to resize</li>
+	<li> Optional thumbnail generation</li>
+	<li> Option to replace spaces with underscores</li>
+	<li> Specify longest side of both image and thumbnails</li>
+	<li> Adjust output image quality</li>
 </ul>
 <br />
 <h4>Requirements</h4>
 <ul type="square">
-	<li> Windows 7
-	<li> 1GB RAM recommended
-	<li> .NET Runtime 4.0
+	<li> Windows 7</li>
+	<li> 1GB RAM recommended</li>
+	<li> .NET Runtime 4.0</li>
 </ul>
 <br />
 <h4>Screenshot</h4>
