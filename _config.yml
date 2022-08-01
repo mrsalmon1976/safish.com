@@ -139,8 +139,8 @@ footer-hover-col: "#0085A1"
 #  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
-#site-js:
-#  - https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.js
+site-js:
+  - https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js
 #  - "/assets/js/custom-script.js"
 
 # --- Web Analytics Section --- #

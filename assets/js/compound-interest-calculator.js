@@ -1,32 +1,25 @@
-var cicue = new Vue({
+var cicvue = new Vue({
 	el: '#cic-app',
 	data: {
+      compounding: 12,
+      futureValue: null,
+      interestEarned: null,
 	    principalAmount: null,
 	    principalAmountState: -1,
 	    interestRate: null,
 	    interestRateState: -1,
-	    
-	    deposit: null,
-	    depositState: -1,
-	    loanYears: null,
-	    loanYearsState: true,
-	    monthlyRepayments: null,
-	    interestOnly: null
+	    periodRangeState: -1,
+
 	},
 	// define methods under the `methods` object
 	methods: {
 	    isValid: function() {
-				return (this.principalAmountState == 1 && this.depositState == 1 && this.loanYearsState == 1 && this.interestRateState == 1);
+	    	debugger;
+				return (this.principalAmountState == 1 && this.interestRateState == 1 && this.periodRangeState == 1);
 	    },
-	    onDepositKeyUp: function(event) {
-	    	if ((this.isNumeric(this.deposit)) && this.deposit >= 0 && this.deposit <= this.propertyValue) {
-	    		this.depositState = 1;
-	    	}
-	    	else {
-	    		this.depositState = 0;
-	    	}
-				this.recalculate();
-	    },
+      onCompoundingChange: function() {
+          this.recalculate();
+      },
 	    onInterestRateKeyUp: function(event) {
 	    	if ((this.isNumeric(this.interestRate)) && this.interestRate > 0 && this.interestRate < 100) {
 	    		this.interestRateState = 1;
@@ -36,15 +29,13 @@ var cicue = new Vue({
 	    	}
 				this.recalculate();
 	    },
-	    onLoanYearsKeyUp: function(event) {
-	    	if ((this.isNumeric(this.loanYears)) && this.loanYears > 0 && this.loanYears < 100) {
-	    		this.loanYearsState = 1;
-	    	}
-	    	else {
-	    		this.loanYearsState = 0;
-	    	}
-				this.recalculate();
-	    },
+      onPeriodChange: function() {
+          this.fromDate = moment($('#periodFrom').val(), 'DD/MM/YYYY');
+          this.toDate = moment($('#periodTo').val(), 'DD/MM/YYYY');
+          var isValid = (this.fromDate.isValid() && this.toDate.isValid() && this.fromDate.isBefore(this.toDate));
+          this.periodRangeState = (isValid ? 1 : 0);
+          this.recalculate();
+      },
 	    onPrincipalAmountKeyUp: function(event) {
 	    	if ((this.isNumeric(this.principalAmount)) && this.principalAmount > 0) {
 	    		this.principalAmountState = 1;
@@ -86,4 +77,13 @@ var cicue = new Vue({
 	    }
 	}
 });
+
+// fire up the datepicker
+var datePicker = $('#periodDatePicker').datepicker({
+    inputs: $('.periodRange'),
+    format: 'dd/mm/yyyy',
+    autoclose: true,
+});
+datePicker.on('changeDate', function(e) { cicvue.onPeriodChange(); })
+datePicker.on('clearDate', function(e) { cicvue.onPeriodChange(); });    
 

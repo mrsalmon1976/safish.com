@@ -35,41 +35,49 @@ Enter amounts as whole numbers, or in the case of decimals only include the deci
 				<div v-if="interestRateState == 0" class="invalid-feedback">Interest rate must be greater than 0 and less than 100</div>
 		</div>
 	</div>
-	
-	
-
 	<div class="form-group row">
-		<label class="col-sm-4 col-form-label" for="periodDatePicker">Period</label>
+		<label for="periodDatePicker" class="col-sm-4 col-form-label">From date</label>
 		<div class="col-sm-8 controls">
 			<div id="periodDatePicker">
-				<input id="periodFrom" v-on:blur="onPeriodChange" type="text" class="periodRange">
-				<input id="periodTo" v-on:blur="onPeriodChange" type="text" class="periodRange">
+				<input id="periodFrom" v-on:blur="onPeriodChange" type="text" class="periodRange form-control">
 			</div>
-			<span class="help-inline" v-if="periodRangeClass == 'error'">Period must contain valid dates at least one day apart</span>
+		</div>
+	</div>	
+	<div class="form-group row">
+		<label for="periodDatePicker" class="col-sm-4 col-form-label">To date</label>
+		<div class="col-sm-8 controls">
+			<div id="periodDatePicker">
+				<input id="periodTo" v-on:blur="onPeriodChange" type="text" class="periodRange form-control">
+			</div>
+			<div v-if="periodRangeState == '0'" class="invalid-feedback">Period must contain valid dates at least one day apart</div>
 		</div>
 	</div>	
 	<div class="form-group row" >
-		<label class="col-sm-4 col-form-label" for="ddlCompounding">Compounding</label>
+		<label for="ddlCompounding" class="col-sm-4 col-form-label">Compounding</label>
 		<div class="col-sm-8 controls">
-			<select id="ddlCompounding" name="ddlCompounding" v-model.number="compounding" v-on:change="onCompoundingChange">
+			<select id="ddlCompounding" class="form-control" name="ddlCompounding" v-model.number="compounding" v-on:change="onCompoundingChange">
 				<option value="365">Daily</option>
 				<option value="12">Monthly</option>
 				<option value="1">Annually</option>
 			</select>
 		</div>
 	</div>	
+	
+	<hr />
+	
 	<div class="tool-separator form-group row">
 		<label class="col-sm-4 col-form-label" for="txtFutureValue">Future value</label>
 		<div class="col-sm-8 controls">
-			<input v-model="futureValue" type="text" maxlength="100" id="txtFutureValue" name="txtFutureValue" value="0" readonly="readonly">
+			<input v-model="futureValue" class="form-control" type="text" id="txtFutureValue" name="txtFutureValue" readonly="readonly">
 		</div>
 	</div>	
 	<div class="form-group row">
 		<label class="col-sm-4 col-form-label" for="txtInterestEarned">Interest earned</label>
 		<div class="col-sm-8 controls">
-			<input v-model="interestEarned" type="text" maxlength="100" id="txtInterestEarned" name="txtInterestEarned" value="0" readonly="readonly">
+			<input v-model="interestEarned" class="form-control" type="text" id="txtInterestEarned" name="txtInterestEarned" readonly="readonly">
 		</div>
-	</div>	
+	</div>
+	
 </div>
 </form>	
 
