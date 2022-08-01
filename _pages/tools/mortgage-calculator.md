@@ -2,6 +2,7 @@
 layout: page
 title: Mortgage Calculator
 permalink: /tools/mortgage-calculator
+js: /assets/js/mortgage-calculator.js
 ---
 
 <p>
@@ -71,5 +72,4 @@ Enter amounts as whole numbers, or in the case of decimals only, include the dec
 
 	</div>
 </form>
-<script defer src="{{ "/assets/js/mortgage-calculator.js" | absolute_url }}"></script>.
 

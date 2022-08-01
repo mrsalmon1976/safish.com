@@ -19,6 +19,12 @@
   {% endfor %}
 {% endif %}
 
+{% if jekyll.environment == "development" %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.js"></script>
+{% else %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
+{% endif %}
+
 {% if site.site-js %}
   {% for js in site.site-js %}
     <script src="{{ js | relative_url }}"></script>
@@ -33,12 +39,7 @@
 
 {% if page.js %}
   {% for js in page.js %}
-    <script src="{{ js | relative_url }}"></script>
+    <script defer src="{{ js | relative_url }}"></script>
   {% endfor %}
-{% endif %}
-{% if jekyll.environment == "development" %}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.js"></script>
-{% else %}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
 {% endif %}
 

@@ -23,7 +23,7 @@ navbar-links:
     - PhotoTool: "software/phototool"
   Online Tools:
     - "Mortgage Calculator" : "tools/mortgage-calculator"
-    - "Compount Interest Calculator" : "tools/compound-interest-calculator"
+    - "Compound Interest Calculator" : "tools/compound-interest-calculator"
     - "Future Value Calculator" : "tools/future-value-calculator"
     - "Future Value Annuity Calculator" : "tools/future-value-annuity-calculator"
   Links: "links"
