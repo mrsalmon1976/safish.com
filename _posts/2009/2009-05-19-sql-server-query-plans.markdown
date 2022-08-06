@@ -2,7 +2,7 @@
 layout: post
 title: SQL Server Query Plans
 date: 2009-05-19 11:01:00
-tags: [c#]
+tags: [sqlserver]
 published: true
 ---
 
