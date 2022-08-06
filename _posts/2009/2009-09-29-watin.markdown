@@ -1,0 +1,26 @@
+---
+layout: post
+title: WatIn
+date: 2009-09-29 14:50:00
+tags: [watin]
+published: true
+---
+
+I've been fighting with Selenium and automated testing lately, and I just couldn't shake the feeling 
+that it just wasn't the right tool for the job. The IDE is flakey in terms of files you save (making 
+changes to the project often results in JS errors in the tests), the server is a java server which I 
+had to jump through hoops to get running as a Windows service, and the loading of a browser for the 
+tests is hellishly slow.
+
+It really is a great tool, and I love it's ease of use for development (I use it to autocomplete 
+forms instead of typing all that crap in over and over again), but as an automated testing suite 
+on a Windows technology stack, I'm just not a huge fan.
+
+So today, I [downloaded WatIn](http://watin.sourceforge.net/) and gave it a run. I had the automated 
+nUnit side up and running in a matter of minutes - the tests ran fast and the API is intuitive and easy to use.
+
+The test recorder is not as good as Selenium's, but it's decent enough, and there is a beta version 
+out that is supposed to be a vast improvement. I did download and try the Beta version, but it 
+wouldn't even run for me, so I guess it's REALLY in Beta. Anyway, I'm more interested in the CruiseControl 
+automated side of testing than visual testing, so it's easy, understandable unit test code that I want 
+to be able to produce - and for this WatIn wins hands down.
