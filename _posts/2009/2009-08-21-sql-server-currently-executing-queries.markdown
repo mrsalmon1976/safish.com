@@ -6,7 +6,7 @@ tags: [sqlserver]
 published: true
 ---
 
-I found this great article by Ian Stirk on SQLServerCentral.com, regarding finding queries that are 
+I found this [great article by Ian Stirk](http://www.sqlservercentral.com/articles/DMV/64425/) on [SQLServerCentral.com](http://www.sqlservercentral.com/), regarding finding queries that are 
 currently executing on SQL Server. The article contains the following VERY useful query:
 
 ```sql
