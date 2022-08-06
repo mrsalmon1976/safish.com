@@ -2,7 +2,7 @@
 layout: post
 title: Google syntax highlighter
 date: 2009-05-09 11:10:00
-tags: [c#]
+tags: []
 published: true
 ---
 
