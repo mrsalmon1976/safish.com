@@ -23,7 +23,10 @@ This is a 2-step process:
 [SuppressMessage("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
 public string MyProperty
 {
-  get { return 123; }
+  get 
+  { 
+    return 123; 
+  }
 }
 ```
 
