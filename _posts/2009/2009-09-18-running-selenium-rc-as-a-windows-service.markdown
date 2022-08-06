@@ -14,8 +14,8 @@ Anyway, I found a [great article on tacktech.com](http://www.tacktech.com/displa
 
 1. Install the latest Java runtime if you don't have it installed already
 2. Install the Selenium server (e.g. C:\Seleniumselenium-server-1.0.1
-3. Download srvany.exe and instsrv.exe (these are part of the Microsoft Windows Resource Kit - you will need to download the correct version for your OS) and copy these files to a location on your server (e.g. C:\eskit)
-4. Browse to this folder, and type: instsrv "Selenium RC" "C:\eskit\MyServicePath" \srvany.exe - this will create the windows service named "Selenium RC", which will now be installed as a Windows service, although it won't start up yet
+3. Download srvany.exe and instsrv.exe (these are part of the Microsoft Windows Resource Kit - you will need to download the correct version for your OS) and copy these files to a location on your server (e.g. C:\reskit)
+4. Browse to this folder, and type: instsrv "Selenium RC" "C:\reskit\srvany.exe" - this will create the windows service named "Selenium RC", which will now be installed as a Windows service, although it won't start up yet
 5. Open up regedit, and browse to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControl\SetServices\Selenium RC
 6. Right-click "Selenium RC" in the tree, and click New - Key, and add a key called "Parameters"
 7. Open Parameters, and create a new string value called "Application"
