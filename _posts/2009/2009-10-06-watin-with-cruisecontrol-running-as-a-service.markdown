@@ -6,7 +6,7 @@ tags: [watin]
 published: true
 ---
 
-We've started using [downloaded WatIn](http://watin.sourceforge.net/) for our automated tests: nice and 
+We've started using [WatIn](http://watin.sourceforge.net/) for our automated tests: nice and 
 easy to use and integrates easily, but I did hit one stumbling block: CruiseControl.NET. When running 
 tests locally, there were no issues - check the code in and bang, the tests fail. It was immediately 
 apparent that it was a security thing - the CruiseControl.NET service runs by default with the SYSTEM 
