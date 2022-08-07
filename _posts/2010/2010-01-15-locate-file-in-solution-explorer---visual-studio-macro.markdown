@@ -2,7 +2,7 @@
 layout: post
 title: Locate File in Solution Explorer - Visual Studio Macro
 date: 2010-01-15 08:57:00
-tags: []
+tags: [visualstudio]
 published: true
 ---
 
