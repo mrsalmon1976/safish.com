@@ -6,9 +6,9 @@ tags: [.net]
 published: true
 ---
 
-I hate the way Windows Forms applications get built with all their binaries in a single folder. 
-I also hate the publish options in Visual Studio - those crappy .application files stink in so 
-many ways. I prefer to just deploy the executable and related assemblies using some kind of packaging tool.
+I don't like the way Windows Forms applications get built with all their binaries in a single folder. 
+I also don't like the publish options in Visual Studio - the .application files just feel messy, so 
+I prefer to just deploy the executable and related assemblies using some kind of packaging tool.
 
 The problem here is all the dll's by default need to be in the base appdomain directory, which 
 can end up being a horrible mess in the base install directory. There is a configuration option 
