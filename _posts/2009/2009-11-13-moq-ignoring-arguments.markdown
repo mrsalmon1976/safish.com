@@ -2,7 +2,7 @@
 layout: post
 title: Moq - Ignoring Arguments
 date: 2009-11-13 08:41:00
-tags: [watin]
+tags: [moq,c#]
 published: true
 ---
 
