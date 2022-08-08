@@ -24,6 +24,6 @@ where the highlighted piece gives you the supported version.
 
 Alternatively, you can just open ildasm (just type ildasm at the command prompt), and open up the dll - you can see the metadata version right at the top by double-clicking "MANIFEST":
 
-![Manifest!](/assets/images/2010/Manifest.png "Manifest.png")
+![Manifest!](../assets/images/2010/Manifest.png "Manifest.png")
 
 Useful!
