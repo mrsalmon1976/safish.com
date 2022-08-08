@@ -6,8 +6,10 @@ tags: [prettify]
 published: true
 ---
 
-Following [stackoverflow's](http://stackoverflow.com/) example, I've started using [prettify](http://code.google.com/p/google-code-prettify/) for syntax highlighting on this blog.  
-I've used the [Google syntax highlighter](http://code.google.com/p/syntaxhighlighter/) in the past, but prettify just seems easier as I don't need to mark it with class names or anything - all I need to do is wrap code in <pre> and <code> tags, and it just works.  It's clever enough to work out the language.
+Following [stackoverflow's](http://stackoverflow.com/) example, I've started using [prettify](http://code.google.com/p/google-code-prettify/) 
+for syntax highlighting on this blog.  I've used the [Google syntax highlighter](http://code.google.com/p/syntaxhighlighter/) in the past, 
+but prettify just seems easier as I don't need to mark it with class names or anything - all I need to do is wrap code in `pre` and `code` tags, 
+and it just works.  It's clever enough to work out the language.
 
 Getting it working was really simple.  I downloaded the source, combined all the .js files into one using [Google's Closure Compiler](http://closure-compiler.appspot.com/home), and update the .css file to the styles I like (stolen without shame from stackoverflow - I love that site).
 
