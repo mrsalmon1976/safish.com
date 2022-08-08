@@ -2,7 +2,6 @@
 layout: post
 title: Getting the Host Key Fingerprint for SFTP Connections
 date: 2022-08-08 09:35:00
-future: true
 tags: [sftp,winscp]
 published: true
 ---
