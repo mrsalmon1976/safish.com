@@ -1,0 +1,16 @@
+---
+layout: post
+title: Prettify
+date: 2010-09-21 09:56:00
+tags: [prettify]
+published: true
+---
+
+Following [stackoverflow's](http://stackoverflow.com/) example, I've started using [prettify](http://code.google.com/p/google-code-prettify/) for syntax highlighting on this blog.  
+I've used the [Google syntax highlighter](http://code.google.com/p/syntaxhighlighter/) in the past, but prettify just seems easier as I don't need to mark it with class names or anything - all I need to do is wrap code in <pre> and <code> tags, and it just works.  It's clever enough to work out the language.
+
+Getting it working was really simple.  I downloaded the source, combined all the .js files into one using [Google's Closure Compiler](http://closure-compiler.appspot.com/home), and update the .css file to the styles I like (stolen without shame from stackoverflow - I love that site).
+
+To get the styles to apply to my blog, I also added an initialisation script to make the prettify call, and it works.  Hopefully this should save me some time in the future.
+
+I found a [really good article here](http://www.codingthewheel.com/archives/syntax-highlighting-stackoverflow-google-prettify) that showed me how to set this all up.  I'll update old blog posts at some stage, for now they're going to appear without styling.

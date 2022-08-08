@@ -41,7 +41,9 @@ dialogs that you can navigate between at [http://wix.sourceforge.net/manual-wix3
 This foxed me a little too.  Mostly, using the extensions just worked in Visual Studio, but the IIS extension doesn't.  You need to add the namespace reference, something along the lines of:
 
 ```xml
-<wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:iis="http://schemas.microsoft.com/wix/IIsExtension" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
+<wix xmlns="http://schemas.microsoft.com/wix/2006/wi" 
+	xmlns:iis="http://schemas.microsoft.com/wix/IIsExtension" 
+	xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
 ```
 
 You can then use the extension elements as follows:
