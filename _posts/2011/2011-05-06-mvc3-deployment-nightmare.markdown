@@ -17,7 +17,7 @@ Fan-freaking-tastic.  Double-check the Web.config.  Fine.  Double-check the IIS 
 
 Either way, the solution I finally came up with was to UNINSTALL MVC3 on the web server, manually add the .dll references to our project, and force "Copy Local".
 
-http://www.tugberkugurlu.com/archive/deployment-of-asp-net-mvc-3-rc-2-application-on-a-shared-hosting-environment-without-begging-the-hosting-company
+[http://www.tugberkugurlu.com/archive/deployment-of-asp-net-mvc-3-rc-2-application-on-a-shared-hosting-environment-without-begging-the-hosting-company](http://www.tugberkugurlu.com/archive/deployment-of-asp-net-mvc-3-rc-2-application-on-a-shared-hosting-environment-without-begging-the-hosting-company)
 
 The DLLs that must be referenced:
 
