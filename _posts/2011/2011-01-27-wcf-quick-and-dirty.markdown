@@ -37,7 +37,8 @@ Now that we have the data contract, we can create the actual service.
 3. Any methods added to the interface will need to be decorated with an OperationContract attribute.
 4. In terms of the contract implementation, you will need to decorate your class with a ServiceBehavior attribute.  For example:
 	```csharp
-	[ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall, AddressFilterMode = AddressFilterMode.Any)]
+	[ServiceBehavior(InstanceContextMode = InstanceContextMode.PerCall
+		, AddressFilterMode = AddressFilterMode.Any)]
 	```
 **Configure the Service**
 
@@ -69,7 +70,8 @@ If you get errors here, you may need to configure your web site.  There are two 
 1. IIS has not been configured to handle the .svc extension.  This is easily fixed by running the registration tool that comes with .NET – run ServiceModelReg.exe -i from the "%windir%Microsoft.NETFrameworkv3.0Windows Communication Foundation" directory
 2. If you are getting an error that the service cannot be activated because it does not support ASP.NET compatibility you can either configure your application for compatibility mode, or mark your service implementation with the following attribute:
 	```csharp
-	[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
+	[AspNetCompatibilityRequirements(RequirementsMode 
+		= AspNetCompatibilityRequirementsMode.Allowed)]
 	```
 
 **Create the Client**
