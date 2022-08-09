@@ -9,6 +9,10 @@ permalink: /links
 - [https://www.youtube.com/watch?v=502ILHjX9EE](https://www.youtube.com/watch?v=502ILHjX9EE) - great, short video on Agile product ownership
 - [https://glenngillen.com/thoughts/quickstart-guide-to-agile](https://glenngillen.com/thoughts/quickstart-guide-to-agile) - excellent opinion article on agile software development
 
+<h1>jQuery</h1>
+
+- [Reveal](https://zurb.com/playground/reveal-modal-plugin) - very nice modal dialog implementation
+
 <h1>Multimedia</h1>
 
 - [http://www.favicon.cc/](http://www.favicon.cc/) - create your own icons
