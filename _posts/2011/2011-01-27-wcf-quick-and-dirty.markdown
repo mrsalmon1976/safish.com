@@ -91,5 +91,5 @@ client.Close();
 
 **Resources** 
 
-1. [http://msdn.microsoft.com/en-us/netframework/dd939784]
-2. [http://channel9.msdn.com/shows/Endpoint/Endpoint-Screencasts-Creating-Your-First-WCF-Service/]
+1. [http://msdn.microsoft.com/en-us/netframework/dd939784](http://msdn.microsoft.com/en-us/netframework/dd939784)
+2. [http://channel9.msdn.com/shows/Endpoint/Endpoint-Screencasts-Creating-Your-First-WCF-Service/](http://channel9.msdn.com/shows/Endpoint/Endpoint-Screencasts-Creating-Your-First-WCF-Service/)
