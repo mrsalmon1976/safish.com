@@ -2,7 +2,7 @@
 layout: post
 title: Editing Video Tags with taglib-sharp
 date: 2013-01-24 20:12:00
-tags: [C#]
+tags: [c#]
 published: true
 ---
 

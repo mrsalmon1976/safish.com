@@ -2,7 +2,7 @@
 layout: post
 title: Working with ASP.NET DataGrids
 date: 2005-09-20 00:00:00
-tags: [csharp, asp.net]
+tags: [c#, asp.net]
 published: true
 ---
 
