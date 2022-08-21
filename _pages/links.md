@@ -40,6 +40,15 @@ permalink: /links
 - [Greenshot](https://getgreenshot.org/) - screen capture with easy obfuscation, highlighting and editing
 - [Draw.io](https://github.com/jgraph/drawio-desktop/releases) - free diagrams/charts desktop tool
 
+<h1>Podcasts</h1>
+
+- [TED Podcasts](http://feeds.feedburner.com/TEDTalks_audio)
+- [Scott Hanselman's Podcast](http://feeds.feedburner.com/HanselminutesCompleteMP3)
+- [Google Developer Podcast](http://feeds.feedburner.com/GoogleDeveloperPodcast)
+- [This Developer's Life Podcast](http://feeds.feedburner.com/ThisDevelopersLife)
+- [Pragmatic Programmer Podcast](http://pragprog.com/podcasts/feed.rss)
+- [HerdingCode Podcast](http://feeds.feedburner.com/HerdingCode)
+
 <h1>Security</h1>
 
 - [https://www.ncsc.gov.uk/guidance/password-guidance-simplifying-your-approach](https://www.ncsc.gov.uk/guidance/password-guidance-simplifying-your-approach) - don't take my word for it: password guidance from the NCSC
@@ -47,6 +56,19 @@ permalink: /links
 <h1>Source Control</h1>
 
 - [Git Extensions](http://gitextensions.github.io/) - best Git source control UI (second to the command line)
+
+<h1>Technical Blogs</h1>
+
+- [http://feeds.feedburner.com/AyendeRahien](http://feeds.feedburner.com/AyendeRahien)
+- [http://www.joelonsoftware.com/rss.xml](http://www.joelonsoftware.com/rss.xml)
+- [http://feeds.feedburner.com/codinghorror](http://feeds.feedburner.com/codinghorror)
+- [http://feeds.feedburner.com/JonSkeetCodingBlog](http://feeds.feedburner.com/JonSkeetCodingBlog)
+- [http://feeds.feedburner.com/OdeToCode](http://feeds.feedburner.com/OdeToCode)
+- [http://feeds.feedburner.com/RickStrahl](http://feeds.feedburner.com/RickStrahl)
+- [http://feeds.feedburner.com/wekeroad/EeKc](http://feeds.feedburner.com/wekeroad/EeKc)
+- [http://feeds.feedburner.com/ScottHanselman](http://feeds.feedburner.com/ScottHanselman)
+- [http://feeds.feedburner.com/TroyHunt](http://feeds.feedburner.com/TroyHunt)
+- [http://feeds.haacked.com/haacked](http://feeds.haacked.com/haacked)
 
 <h1>Utilities for Windows</h1>
 
