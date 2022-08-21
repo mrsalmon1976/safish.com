@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Powershell : Recursively deleting folders
+title: Powershell - Recursively deleting folders
 date: 2013-10-25 14:55:00
 tags: [powershell]
 published: true
