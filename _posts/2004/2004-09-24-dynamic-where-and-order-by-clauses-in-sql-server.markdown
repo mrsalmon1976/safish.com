@@ -2,7 +2,7 @@
 layout: post
 title: Dynamic WHERE and ORDER BY Clauses in SQL Server
 date: 2004-09-24 00:00:00
-tags: [sql,mssqlserver]
+tags: [sql,sqlserver]
 published: true
 ---
 
