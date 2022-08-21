@@ -13,9 +13,7 @@ Programmatically creating tickets in a Trac system using the recommended approac
 3. As per the link above, enable the plugin in trac.ini, and if you're using the AccountManagerPlugin, make sure you follow the instructions.
 4. Fire up Trac - you should now have the XmlRpcPlugin running in Trac.
 5. Go to the Admin section in Trac, and to Permissions. You will need to add the XML_RPC permission to the user account that requires it - in my case I added it to my own login for testing purposes:
-
-![TracPermissions!](../assets/img/2013/TracPermissions.png "TracPermissions.png")
-
+	![TracPermissions!](../assets/img/2013/TracPermissions.png "TracPermissions.png")
 6. If you browse to your Trac instance /rpc (e.g. http://localhost:8000/rpc) you will see the full XmlRpc API, with all possible methods to implement.
 7. Create a new Visual Studio project, and implement the methods you want. I just implemented two methods, CreateTicket and AddAttachment as follows (according to the example [shown here](http://trac-hacks.org/wiki/XmlRpcPlugin/DotNet)):
 
