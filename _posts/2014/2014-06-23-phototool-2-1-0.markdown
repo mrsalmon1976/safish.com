@@ -1,0 +1,12 @@
+---
+layout: post
+title: PhotoTool 2.1.0
+date: 2014-06-23 21:48:00
+tags: [phototool]
+published: true
+---
+
+One of the pieces of software I wrote (10 years ago now!) that I actually use is PhotoTool. This isn't really anything amazing, it 
+just works for me when I want to upload photos. I updated it last week to use the [ImageProcessor](http://imageprocessor.org/imageprocessor/) library, and put the horrible source code onto github. The code is pretty bad, but hey, it works for me.
+
+[Download the latest version from here.](https://github.com/mrsalmon1976/PhotoTool/releases/latest)
