@@ -16,7 +16,7 @@ Steps for configuration in IIS7:
 	![IIS_2!](../assets/img/2015/IIS_2.png "IIS_2.png")
 3. In Windows, create the folder in your web site directory.
 4. In IIS Manager, click on the folder, go to Authentication and make sure Anonymous Authentication is Disabled, and Basic Authentication is Enabled.
-	![IIS_4.png!](../assets/img/2015/IIS_4.png.png "IIS_4.png.png")
+	![IIS_4.png!](../assets/img/2015/IIS_4.png "IIS_4.png")
 5. On the folder, go to Directory Browsing and make sure it is Enabled.
 	![IIS_5!](../assets/img/2015/IIS_5.png "IIS_5.png")
 6. In Windows Explorer, go to the folder, and update the permissions so that the user you created has Read access to the folder. Make sure you remove any other accounts that are not relevant - for example the Users group on the local machine should NOT have access to the folder. Finally, you also need to ensure that the user of the Application Pool under which the web site runs has access to the folder. For example, if your App Pool runs under the Network Service account, this account must have access to the folder in question.
