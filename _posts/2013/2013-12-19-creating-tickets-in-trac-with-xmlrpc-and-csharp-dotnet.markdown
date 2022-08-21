@@ -20,51 +20,52 @@ Programmatically creating tickets in a Trac system using the recommended approac
 7. Create a new Visual Studio project, and implement the methods you want. I just implemented two methods, CreateTicket and AddAttachment as follows (according to the example [shown here](http://trac-hacks.org/wiki/XmlRpcPlugin/DotNet)):
 
 ```csharp
-    public struct TicketAttributes
+public struct TicketAttributes
+{
+}
+
+[XmlRpcUrl("http://localhost:8000/login/xmlrpc")]
+public interface TracXmlRpcProxy : IXmlRpcProxy
+{
+
+    [XmlRpcMethod("ticket.create")]
+    int CreateTicket(string summary, string description, TicketAttributes attributes, bool notify, DateTime when);
+
+    [XmlRpcMethod("ticket.putAttachment")]
+    string AddAttachment(int ticketId, string filename, string description, byte[] data, bool replace = true);
+}
+
+class Program
+{
+    static void Main(string[] args)
     {
+        TracXmlRpcProxy proxy;
+
+        // Fill these in appropriately
+        string user = "matt";
+        string password = "password!";
+
+        /// Create an instance of the Trac interface
+        proxy = XmlRpcProxyGen.Create();
+
+        // If desired, point this to your URL. If you do not do this,
+        // it will use the one specified in the service declaration.
+        // proxy.Url = "https://trac-rules.org/xmlrpc";
+
+        // Attach your credentials
+        proxy.Credentials = new System.Net.NetworkCredential(user, password);
+
+        TicketAttributes attr;
+        //attr.comment = "This is the comment that goes with the new page";
+        int ticketId = proxy.CreateTicket("Xml Rpc Test", "This is an XML RPC Test", attr, false, DateTime.Now);
+
+        byte[] fileData = File.ReadAllBytes("C:\Temp\test.jpg");
+        proxy.KeepAlive = false;
+        proxy.AddAttachment(ticketId, "test.jpg", "Test description", fileData, true);
+
+        Console.WriteLine("Ticket ID: " + ticketId);
     }
-
-    [XmlRpcUrl("http://localhost:8000/login/xmlrpc")]
-    public interface TracXmlRpcProxy : IXmlRpcProxy
-    {
-
-        [XmlRpcMethod("ticket.create")]
-        int CreateTicket(string summary, string description, TicketAttributes attributes, bool notify, DateTime when);
-
-        [XmlRpcMethod("ticket.putAttachment")]
-        string AddAttachment(int ticketId, string filename, string description, byte[] data, bool replace = true);
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            TracXmlRpcProxy proxy;
-
-            // Fill these in appropriately
-            string user = "matt";
-            string password = "password!";
-
-            /// Create an instance of the Trac interface
-            proxy = XmlRpcProxyGen.Create();
-
-            // If desired, point this to your URL. If you do not do this,
-            // it will use the one specified in the service declaration.
-            // proxy.Url = "https://trac-rules.org/xmlrpc";
-
-            // Attach your credentials
-            proxy.Credentials = new System.Net.NetworkCredential(user, password);
-
-            TicketAttributes attr;
-            //attr.comment = "This is the comment that goes with the new page";
-            int ticketId = proxy.CreateTicket("Xml Rpc Test", "This is an XML RPC Test", attr, false, DateTime.Now);
-
-            byte[] fileData = File.ReadAllBytes("C:\Temp\test.jpg");
-            proxy.KeepAlive = false;
-            proxy.AddAttachment(ticketId, "test.jpg", "Test description", fileData, true);
-
-            Console.WriteLine("Ticket ID: " + ticketId);
-        }
-    }```
+}
+```
 	
 One thing to note with the above is the proxy.KeepAlive = false: this HAS to be set before sending the attachment otherwise you get the following error: "The server committed a protocol violation. Section=ResponseStatusLine".
