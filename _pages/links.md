@@ -11,6 +11,10 @@ permalink: /links
 - [https://wheelofnames.com/](https://wheelofnames.com/) - the wheel of names!
 - [https://retrotool.io/](https://retrotool.io/) - run remote retros
 
+<h1>Architecture</h1>
+
+- [NetArchTest](https://github.com/BenMorris/NetArchTest) - use this to enforce architectural patterns in your code
+
 <h1>Development</h1>
 
 - [Fiddler](https://www.telerik.com/fiddler) - web debugging proxy tool, useful for testing APIs
