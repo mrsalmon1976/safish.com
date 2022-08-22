@@ -17,7 +17,9 @@ Excel documents go in really easily. You just need the name of the Sheet you wan
 ```sql
 SELECT * 
 	INTO MyExcelData 
-	FROM OPENROWSET('Microsoft.ACE.OLEDB.12.0', 'Excel 12.0;Database=F:\MyData\MyFile.xlsx', [Sheet1$]) 
+	FROM OPENROWSET('Microsoft.ACE.OLEDB.12.0'
+		, 'Excel 12.0;Database=F:\MyData\MyFile.xlsx'
+		, [Sheet1$]) 
 ```
 
 **CSV**
@@ -25,7 +27,7 @@ SELECT *
 Second easiest, is a CSV document. Be warned, you will need to make sure that it is an ANSI-compliant file (or that there are no commas in the data), otherwise you will end up with columns named "F1", "F2", "F3" in your generated table.
 
 ```sql
-select * 
+SELECT * 
 	INTO MyCsvData
 	FROM OPENROWSET('MSDASQL'
 		,'Driver={Microsoft Access Text Driver (*.txt, *.csv)};'''
