@@ -6,7 +6,7 @@ tags: [chrome]
 published: true
 ---
 
-This article is my personal summary (for future reference) of Robert Martin's book Clean Code (most of it, anyway).
+This article is my personal summary (for future reference) of Robert Martin's book [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) (most of it, anyway).
 
 **Foreword**
 
