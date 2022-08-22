@@ -8,7 +8,7 @@ published: true
 
 At [IUA](https://www.iua.co.za/) we use [Jenkins](https://jenkins.io/) for CI, and we use Powershell for automation of our builds and deployments. We've always invoked Powershell using batch commands, but I recent implemented the [Powershell plugin](https://plugins.jenkins.io/powershell) which makes life a little easier. Some tips on implementation:
 
-#Include a file
+# Include a file
 
 Prefix the file name with a ". "
 
@@ -16,7 +16,7 @@ Prefix the file name with a ". "
 . C:\Temp\test.ps1
 ```
 
-#Use environment variables
+# Use environment variables
 
 When running in the context of Jenkins, you can get and set environment variables. This can be useful when wanting to access a common function used across multiple scripts. For example, if you have many files wanting to use a version number, but the generation of that version number is complex enough to put it in a function, you could move that function to a common file and then store the generated value in an environment variable:
 
@@ -26,7 +26,7 @@ $env:version = GetVersion
 Write-Host $env:version
 ```
 
-#Run jobs via the Jenkins API
+# Run jobs via the Jenkins API
 
 I got this code from [Stack overflow](https://stackoverflow.com/questions/46131903/why-is-powershell-not-able-to-send-proper-crumb), but adapted it to include build parameters:
 
