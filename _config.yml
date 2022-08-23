@@ -78,7 +78,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Matt Salmon's technical blog
 
 # --- General options --- #
 
@@ -106,7 +106,9 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "safish.com,software,blog,technical,matt salmon"
+description: Matt Salmon's software and articles on programming and computing in general.
+
 
 # --- Colours / background image --- #
 

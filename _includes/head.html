@@ -29,7 +29,7 @@
   <meta name="author" content="{{ site.author }}">
   {% endif %}
 
-  <meta name="description" content="{{ description }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
   {% if site.mobile-theme-col %}
   <meta name="theme-color" content="{{ site.mobile-theme-col }}">

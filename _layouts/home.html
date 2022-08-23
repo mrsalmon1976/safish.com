@@ -7,7 +7,7 @@ layout: page
 {% assign posts = paginator.posts | default: site.posts %}
 
 <div class="posts-list">
-  {% for post in posts %}
+  {% for post in posts limit:10 %}
   <article class="post-preview">
 
     {%- capture thumbnail -%}
