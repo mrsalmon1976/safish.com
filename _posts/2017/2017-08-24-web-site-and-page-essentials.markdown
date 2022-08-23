@@ -3,6 +3,7 @@ layout: post
 title: Web Site and Page Essentials
 date: 2017-08-24 20:03:00
 tags: []
+categories: [sticky]
 published: true
 ---
 

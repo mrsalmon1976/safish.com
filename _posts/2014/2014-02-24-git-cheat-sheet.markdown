@@ -3,6 +3,7 @@ layout: post
 title: Git Cheat Sheet
 date: 2014-02-24 19:22:00
 tags: [git]
+categories: [sticky]
 published: true
 ---
 
