@@ -267,7 +267,7 @@ exclude:
   - docs/
 
 gems:
-	- jekyll-redirect-from
+  - jekyll-redirect-from
 	
 plugins:
   - jekyll-paginate
