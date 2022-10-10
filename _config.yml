@@ -266,6 +266,9 @@ exclude:
   - screenshot.png
   - docs/
 
+gems:
+	- jekyll-redirect-from
+	
 plugins:
   - jekyll-paginate
   - jekyll-sitemap

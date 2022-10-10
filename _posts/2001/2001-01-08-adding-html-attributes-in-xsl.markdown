@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Adding HTML Attributes in XSL
-redirect_from:
-  - /blog/adding-html-attributes-in-xsl
+redirect_from: "/blog/adding-html-attributes-in-xsl"
 date: 2001-01-08 00:00:01
 tags: [xsl]
 ---
