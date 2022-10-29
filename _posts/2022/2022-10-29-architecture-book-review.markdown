@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Book review - Software Architecture The Hard Parts Modern Trade-Off Analyses for Distributed Architectures
+title: Book Summary - Software Architecture The Hard Parts Modern Trade-Off Analyses for Distributed Architectures
 date: 2022-10-29 13:40:00
-tags: [bookreview]
+tags: [booksummary]
 published: true
 ---
 

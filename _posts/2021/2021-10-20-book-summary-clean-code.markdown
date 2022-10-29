@@ -2,7 +2,7 @@
 layout: post
 title: Book Summary - Clean Code
 date: 2021-10-20 07:34:00
-tags: [chrome]
+tags: [booksummary]
 published: true
 ---
 
