@@ -12,9 +12,9 @@ contained line feeds so they would not import correctly.
 Every "valid" line started with *"person@email.com"*, so it was easy to find invalid lines with the following:
 
 
-![Notepad++ Doesn't Start With!](../assets/img/2022/C:\Matt\code\safish.com\assets\img\2022\Notepad++_Find_NotStartsWith.png "Notepad++_Find_NotStartsWith.png")
+![Notepad++ Doesn't Start With!](../assets/img/2022/Notepad++_Find_NotStartsWith.png "Notepad++_Find_NotStartsWith.png")
 
-Using this, I then created a macro as that was:
+Using this, I then created a macro as follows:
 
 * F3 - find next instance
 * Backspace - removes the linefeed
