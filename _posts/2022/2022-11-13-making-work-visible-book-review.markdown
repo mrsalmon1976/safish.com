@@ -37,6 +37,20 @@ These thieves of time prevent you from getting work done:
 * Reduce dependencies to save time and money
 
 ### 3. Unplanned work
-### 4. Conflicting priorities
-### 5. Neglected work (partially completed work on the bench) 
+* Adds unpredictability to the system
+* Higher performing companies tend to spend more time on planned work than lower performing companies
+* Steals time away from planned works and delays planned projects
+* Plan for unplanned work by reserving capacity for it when it arrives
 
+### 4. Conflicting priorities
+* Only one most important thing!
+* Conflicting priorities leads to too much WIP, which leads to longer cycle times
+* Compete for the same people and resources
+
+### 5. Neglected work (partially completed work on the bench) 
+* Aging software is much like an older car that needs regular oil changes and tune-ups to keep it functioning
+* It is often technical debt that is neglected, as short-term thinking prioritises new features over important maintenance (revenue-generating work rather than revenue-protection work)
+* "Zombie" projects (low-value projects that are not proactively being worked on) should be killed!  Get the important work done, and resurrect these later if they become important - don't flog the dead horse
+* If not dealt with, neglected work will become an emergency
+
+## Part 2 - How to Expose Time Theft to Optimise Workflow

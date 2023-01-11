@@ -19,6 +19,7 @@ images.
 	<li> Option to replace spaces with underscores</li>
 	<li> Specify longest side of both image and thumbnails</li>
 	<li> Adjust output image quality</li>
+	<li> Support for multiple image formats, including .HEIC files (read-only, will convert to .JPEG)</li>
 </ul>
 <br />
 <h4>Requirements</h4>
