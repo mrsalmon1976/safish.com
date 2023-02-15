@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Book Summary - Making Work Visible: Exposing Time Theft to Optimize Work & Flow
-date: 2022-11-13 09:56:00
+date: 2023-02-12 19:08:00
 tags: [booksummary]
 published: false
 ---
