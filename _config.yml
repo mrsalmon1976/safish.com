@@ -152,13 +152,13 @@ site-js:
 gtag: "G-F1J3XPE3F4"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-google_analytics: "G-F1J3XPE3F4"
+#google_analytics: "G-F1J3XPE3F4"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
 
 # Google Tag Manager ID
-gtm: "G-F1J3XPE3F4"
+#gtm: "G-F1J3XPE3F4"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
