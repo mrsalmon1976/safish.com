@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Book Summary - Making Work Visible: Exposing Time Theft to Optimize Work & Flow
-date: 2023-02-12 19:08:00
+date: 2024-02-12 19:08:00
 tags: [booksummary]
 published: false
-hide: true
 ---
 
 This is my personal summary of the book [Making Work Visible: Exposing Time Theft to Optimize Work & Flow](https://www.amazon.com/Making-Work-Visible-Exposing-Optimize/dp/1942788150).  It's a very summarised recap to jog my memory.
