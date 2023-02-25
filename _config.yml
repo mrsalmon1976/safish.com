@@ -22,6 +22,7 @@ navbar-links:
   Software:
     - PhotoTool: "software/phototool"
     - SQL Server Report Runner: "software/sqlserverreportrunner"
+    - Stateless WorkflowEngine: "software/statelessworkflowengine"
   Online Tools:
     - "Mortgage Calculator" : "tools/mortgage-calculator"
     - "Compound Interest Calculator" : "tools/compound-interest-calculator"
