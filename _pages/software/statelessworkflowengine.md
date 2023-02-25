@@ -14,14 +14,13 @@ Full details can be seen on GitHub: <a href="https://github.com/mrsalmon1976/Sta
 
 ## Features
 
-<ul type="square">
-	<li> Persistence to MongoDb or RavenDb</li>
-	<li> Prioritisation of workflows</li>
-	<li> Configurable retry attempts</li>
-	<li> Workflow resumption date for delayed activities</li>
-	<li> Web-based dashboard for workflow monitoring</li>
-	<li> Workflow graph visualisation (from within the dashboard)</li> 
-</ul>
+* Persistence to MongoDb or RavenDb
+* Prioritisation of workflows
+* Configurable retry attempts
+* Workflow resumption date for delayed activities
+* Web-based dashboard for workflow monitoring
+* Workflow graph visualisation (from within the dashboard)
+
 
 ## Screenshot
 
