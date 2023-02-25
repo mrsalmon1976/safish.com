@@ -1,6 +1,6 @@
 ---
 layout: page
-title: IIS Log Reader
+title: IISLogReader
 permalink: /software/iislogreader
 ---
 
