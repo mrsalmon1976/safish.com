@@ -14,7 +14,7 @@ I run through Hyper-V - and I didn't realise how easy it was to set up a test se
     ```bash
     sudo adduser sftp-test
     ```
-Enter a password, and complete any of the other questions.  You now have an account you can test with - when the SFTP client logs in it will have access to the above user's home directory on the machine.
+    Enter a password, and complete any of the other questions.  You now have an account you can test with - when the SFTP client logs in it will have access to the above user's home directory on the machine.
 
 2. Install the SFTP server
 
@@ -30,11 +30,10 @@ Enter a password, and complete any of the other questions.  You now have an acco
 
 4. Configure the client
 
-
-![SFTP client configuration!](../assets/img/2023/sftp-client-config.png)
+    ![SFTP client configuration!](../assets/img/2023/sftp-client-config.png)
 
 5. And that's it!
 
-![SFTP connection!](../assets/img/2023/sftp-connected.png)
+    ![SFTP connection!](../assets/img/2023/sftp-connected.png)
 
 
