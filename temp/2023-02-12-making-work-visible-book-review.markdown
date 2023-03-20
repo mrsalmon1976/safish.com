@@ -55,3 +55,27 @@ These thieves of time prevent you from getting work done:
 
 ## Part 2 - How to Expose Time Theft to Optimise Workflow
 
+### 1. Make Work Visible
+
+* Two-thirds of the population are visual-spatial learners (as opposed to audio-sequential learners), thinking in pictures rather than words
+* Making work visible improves our work because the human brain is designed to find patterns and structures in what it sees
+* Seeing work on a visual map can highlight business pain points and other information
+* Use visual systems like kanban to make work visible
+  
+### 2. Ambush the Ringleader
+
+* You know you have too much WIP when
+  * context switching is common
+  * new tasks start before old ones are finished
+  * work gets neglected for ages
+* Too much WIP magnifies all the thieves of time, upping the damage of them all
+* Horizontal swimlanes on a kanban board can help put work into different categories (e.g. Expedite, business requests, teamwork, etc.) - this can add extra visibility and also help set up WIP limits
+* Limits should be assigned to all swimlanes and to WIP in general
+* WIP limits create tension in the system - they enforce constraints that enable people to complete work and foster conversation about priorities
+* Categorising work by who requested it can be beneficial - it brings visibility for internal, external, and leadership stakeholders
+* Use pictures, colours, writing, symbols, acronyms - whatever conveys information quickly in a unified language
+
+### 3. Expose Dependencies
+
+
+
