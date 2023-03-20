@@ -31,10 +31,10 @@ Enter a password, and complete any of the other questions.  You now have an acco
 4. Configure the client
 
 
-    ![SFTP client configuration!](../assets/img/2023/sftp-client-config.png "")
+![SFTP client configuration!](../assets/img/2023/sftp-client-config.png)
 
 5. And that's it!
 
-    ![SFTP connection!](../assets/img/2023/sftp-connected.png "")
+![SFTP connection!](../assets/img/2023/sftp-connected.png)
 
 
