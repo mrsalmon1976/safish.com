@@ -102,11 +102,18 @@ In markup, this is declared as:
 <environment-script src="~/js/common.js"></environment-script>
 ```
 
-which renders to the browser as:
+which renders to the browser in **development** as:
 
 ```html
 <script src="/plugins/vue/vue.global.js?v=1.0.0"></script>
 <script src="/js/common.js?v=1.0.0"></script>
+```
+
+and to **production** as:
+
+```html
+<script src="/plugins/vue/vue.global.prod.js?v=1.0.0"></script>
+<script src="/js/common.min.js?v=1.0.0"></script>
 ```
 
 
