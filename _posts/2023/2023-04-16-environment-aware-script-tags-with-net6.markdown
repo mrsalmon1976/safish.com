@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Environment aware script tags with .net 6
+title: Environment-aware script tags with .Net 6
 date: 2023-04-16 16:24:00
 tags: [.net]
 published: true
