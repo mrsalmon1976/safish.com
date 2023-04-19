@@ -27,6 +27,10 @@ permalink: /links
 - [Visual Studio Code](https://code.visualstudio.com/) - best code editor by far...and it's free
 - [https://jsonformatter.org/](https://jsonformatter.org/) - online JSON formatter
 
+<h2>Hardware</h2>
+
+- [PCPartPicker](https://pcpartpicker.com/) - use this site to build your PC from scratch
+
 <h2>jQuery</h2>
 
 - [Reveal](https://zurb.com/playground/reveal-modal-plugin) - very nice modal dialog implementation
