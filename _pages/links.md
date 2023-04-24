@@ -15,6 +15,12 @@ permalink: /links
 
 - [NetArchTest](https://github.com/BenMorris/NetArchTest) - use this to enforce architectural patterns in your code
 
+<h2>Artificial Intelligence</h2>
+
+- [There's an AI For That](https://theresanaiforthat.com/)
+- [Gamma](https://gamma.app/) - create beautiful presentations
+- [Tripnotes](https://tripnotes.ai/about) - this isn't working yet, but it's a great idea!  Notes on where to go when visiting a country/city....
+
 <h2>Development</h2>
 
 - [Fiddler](https://www.telerik.com/fiddler) - web debugging proxy tool, useful for testing APIs
