@@ -1,0 +1,31 @@
+---
+layout: post
+title: ASP.NET - Load a partial from controller code
+date: 2023-05-26 13:51:00
+tags: [.net]
+published: true
+---
+
+Partials are a nice way in ASP.NET of sharing mark-up across views.  These are usually rendered from within view markup, but sometimes you may 
+want to render a partial from within a controller method - for example if you want to create an HTML email but don't want to put your HTML 
+into your C# code.
+
+This is easily done using your existing controller context.  Assume ```controller``` below is a class inheriting from ```System.Web.Mvc.Controller```:
+```c#
+
+public const string MyViewName = "_MyViewName";
+
+public string LoadPartialHtml(Controller controller, string viewName)
+{
+    using (var sw = new StringWriter())
+    {
+        var viewResult = ViewEngines.Engines.FindPartialView(controller.ControllerContext, MyViewName);
+        var viewContext = new ViewContext(controller.ControllerContext, viewResult.View, controller.ViewData, controller.TempData, sw);
+        viewResult.View.Render(viewContext, sw);
+        return sw.ToString();
+    }
+}
+```
+
+
+
