@@ -20,6 +20,7 @@ permalink: /links
 - [There's an AI For That](https://theresanaiforthat.com/)
 - [Gamma](https://gamma.app/) - create beautiful presentations
 - [Tripnotes](https://tripnotes.ai/about) - this isn't working yet, but it's a great idea!  Notes on where to go when visiting a country/city....
+- [Microsoft Designer](https://designer.microsoft.com/) - use AI to generate images and logos
 
 <h2>Development</h2>
 
