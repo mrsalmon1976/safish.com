@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book Summary - Making Work Visible
+title: Book Summary - Making Work Visible - Exposing Time Theft to Optimize Work & Flow
 date: 2023-09-09 09:32:00
 tags: [booksummary]
 published: true
