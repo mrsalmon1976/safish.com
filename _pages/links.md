@@ -61,8 +61,8 @@ permalink: /links
 
 ## Podcasts
 
-- [Scott Hanselman's Podcast](http://feeds.feedburner.com/HanselminutesCompleteMP3)
-- [The Rework](https://37signals.com/podcast/)
+- [Hanselminutes](http://feeds.feedburner.com/HanselminutesCompleteMP3) - Scott Hanselman's podcast
+- [Rework](https://37signals.com/podcast/) - a great podcast by 37Signals
 - [What the Dev?](https://podcasts.apple.com/us/podcast/what-the-dev/id1487708746)
 - [Merge Conflict](https://www.mergeconflict.fm/)
     
