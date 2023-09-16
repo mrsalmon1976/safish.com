@@ -6,7 +6,7 @@ tags: [booksummary]
 published: true
 ---
 
-This is my personal summary of the book [Making Work Visible: Exposing Time Theft to Optimize Work & Flow](https://www.amazon.com/Making-Work-Visible-Exposing-Optimize/dp/1942788150).  It's a recap to jog my memory which may not be useful without reading the book.  The book is short and to the point and well worth a read.
+This is my personal summary of the book [Making Work Visible: Exposing Time Theft to Optimize Work & Flow](https://www.amazon.com/Making-Work-Visible-Exposing-Optimize/dp/1942788150).  It's a recap to jog my memory, and may not be useful without reading the book.  The book is short and to the point and well worth a read.
 
 # Overview
 
