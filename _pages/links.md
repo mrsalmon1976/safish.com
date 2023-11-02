@@ -22,7 +22,14 @@ permalink: /links
 - [Tripnotes](https://tripnotes.ai/about) - this isn't working yet, but it's a great idea!  Notes on where to go when visiting a country/city....
 - [Microsoft Designer](https://designer.microsoft.com/) - use AI to generate images and logos
 
-## Development
+## .NET Libraries
+
+- [HangFire](https://www.hangfire.io/) - background processing in .NET
+- [Humanizer](https://github.com/Humanizr/Humanizer) - library for turning values into human-readable strings
+- [Polly](https://github.com/App-vNext/Polly) - resilience and transient-fault-handling library, including Retry, Rate Limits, etc
+- [Quartz.NET](https://www.quartz-scheduler.net/) - scheduler library
+
+## Development Tools
 
 - [Fiddler](https://www.telerik.com/fiddler) - web debugging proxy tool, useful for testing APIs
 - [ILSpy](https://github.com/icsharpcode/ILSpy) - open-source .NET assembly browser and decompiler
