@@ -34,16 +34,21 @@ permalink: /links
 - [Fiddler](https://www.telerik.com/fiddler) - web debugging proxy tool, useful for testing APIs
 - [ILSpy](https://github.com/icsharpcode/ILSpy) - open-source .NET assembly browser and decompiler
 - [Prefix](https://stackify.com/prefix/) - code profiler by Stackify
-
+- [MiniProfiler](https://miniprofiler.com/) - free profiler tool for .NET, Ruby, Go, and Node.js
+- [https://jsonformatter.org/](https://jsonformatter.org/) - online JSON formatter
+  
 ## Editors
 
 - [Notepad++](https://notepad-plus-plus.org/downloads/) - best text editor by far...and it's free
 - [Visual Studio Code](https://code.visualstudio.com/) - best code editor by far...and it's free
-- [https://jsonformatter.org/](https://jsonformatter.org/) - online JSON formatter
 
 ## Hardware
 
 - [PCPartPicker](https://pcpartpicker.com/) - use this site to build your PC from scratch
+
+## Learning
+
+- [freecodecamp.org](https://www.freecodecamp.org/) - free online courses and certification
 
 ## jQuery
 
