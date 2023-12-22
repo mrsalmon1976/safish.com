@@ -112,3 +112,7 @@ permalink: /links
 
 - [Virtual Box](https://www.virtualbox.org/) - free virtualization
 
+## Interest
+
+- [PayScale's State of Remote Work](https://www.payscale.com/research-and-insights/remote-work/)
+
