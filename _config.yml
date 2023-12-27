@@ -157,7 +157,7 @@ gtag: "G-F1J3XPE3F4"
 # google_analytics: "G-F1J3XPE3F4"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
-#cloudflare_analytics: ""
+cloudflare_analytics: "7706e5f8cc0f43b5b59b13d49372cc8d"
 
 # Google Tag Manager ID
 #gtm: "G-F1J3XPE3F4"
