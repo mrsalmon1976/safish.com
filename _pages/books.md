@@ -13,7 +13,7 @@ permalink: /books
 - [The Broken Empire Trilogy](https://en.wikipedia.org/wiki/The_Broken_Empire_Trilogy) - Mark Lawrence (5/5)
   - [Prince of Thorns](https://www.goodreads.com/en/book/show/9579634)
   - [King of Thorns](https://www.goodreads.com/book/show/12891107-king-of-thorns)
-  - [Emporer of Thorns](https://www.goodreads.com/book/show/15985373-emperor-of-thorns)
+  - [Emperor of Thorns](https://www.goodreads.com/book/show/15985373-emperor-of-thorns)
 - [Greenlights](https://www.amazon.com/Greenlights-Matthew-McConaughey/dp/0593139135) - Matthew McConaughey (3/5)
 - [Atonement](https://en.wikipedia.org/wiki/Atonement_(novel)) - Ian McEwan (4/5)
 - [The Sensory Deception](https://www.amazon.com/Sensory-Deception-Ransom-Stephens/dp/1611099196) - Ransom Stephens (3/5)
