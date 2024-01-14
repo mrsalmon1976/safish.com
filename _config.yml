@@ -24,6 +24,7 @@ navbar-links:
     - SQL Server Report Runner: "software/sqlserverreportrunner"
     - Stateless WorkflowEngine: "software/statelessworkflowengine"
     - IIS Log Reader: "software/iislogreader"
+    - SftpScheduler: "software/sftpscheduler"
   Online Tools:
     - "Mortgage Calculator" : "tools/mortgage-calculator"
     - "Compound Interest Calculator" : "tools/compound-interest-calculator"
