@@ -21,6 +21,7 @@ permalink: /links
 - [Gamma](https://gamma.app/) - create beautiful presentations
 - [Tripnotes](https://tripnotes.ai/about) - this isn't working yet, but it's a great idea!  Notes on where to go when visiting a country/city....
 - [Microsoft Designer](https://designer.microsoft.com/) - use AI to generate images and logos
+- [CustomGPT.ai](https://customgpt.ai/) - create custom GPT with your own business content
 
 ## .NET Libraries
 
