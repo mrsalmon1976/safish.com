@@ -112,6 +112,7 @@ permalink: /links
 ## Virtualisation Tools
 
 - [Virtual Box](https://www.virtualbox.org/) - free virtualization
+- [Windows Virtual Machines](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
 
 ## Interest
 
