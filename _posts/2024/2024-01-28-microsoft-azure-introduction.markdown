@@ -57,7 +57,7 @@ Source: [https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/
 - Examples: 
   - Development, Test and Production
   - Separating resources by Teams
-  - Naming convention is to always name then `rg-xxxxxxxxx` (`rg` can be prefix or suffix).
+  - Naming convention is to always name them `rg-xxxxxxxxx` (`rg` can be prefix or suffix).
 
 ### Resources
 
