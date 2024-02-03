@@ -8,7 +8,7 @@ published: true
 
 # Regions
 
-Azure is spread across multiple **regions** ([https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies](https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies)), where each region is a geographical area containing one or more data centers.
+Azure is spread across multiple **regions**, where each region is a [geographical area](https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies) containing one or more data centers.
 
 Within each region are **availability zones**, each of which is a physical data center with its own power, cooling, and network infrastructure.
 
@@ -111,7 +111,7 @@ Online tools do exist for calculating SLAs, for example [https://uptime.is/](htt
   - Reservations - pay upfront for the resources, committing to use it for a specific amount of time
 - Always check the cost of resources before provisioning
 - Look for reservations when available and relevant
-- The Azure calculator should be used to calculate pricing ([https://azure.microsoft.com/en-gb/pricing/calculator/](https://azure.microsoft.com/en-gb/pricing/calculator/))
+- The [Azure calculator](https://azure.microsoft.com/en-gb/pricing/calculator/) should be used to estimate pricing 
 - Prices vary massively, depending on options picked.  For example, selecting the DTU purchase model as opposed to a vCore purchase model can make a huge difference for smaller use cases and proof of concept investigations.
 
 # Budgets
@@ -132,6 +132,6 @@ Traditionally, architects needed to understand:
 However, when building cloud solutions, they will now also need to understand:
 - aspects of infrastructure (networking, load balancing, firewalls, etc)
 - security
-- deployment and maintenance (traditionally done by the Infrastructrue team)
+- deployment and maintenance (traditionally done by the Infrastructure team)
 
 
