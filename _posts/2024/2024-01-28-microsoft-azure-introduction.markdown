@@ -8,7 +8,7 @@ published: true
 
 # Regions
 
-Azure is spread across multiple **regions** (https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies), where each region is a geographical area containing one or more data centers.
+Azure is spread across multiple **regions** ([https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies](https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies)), where each region is a geographical area containing one or more data centers.
 
 Within each region are **availability zones**, each of which is a physical data center with its own power, cooling, and network infrastructure.
 
@@ -22,15 +22,15 @@ When selecting a region, you  will need to consider:
 
 # Services
 
-Services can be viewed at https://azure.microsoft.com/en-us/products.
+Services can be viewed at [https://azure.microsoft.com/en-us/products](https://azure.microsoft.com/en-us/products).
 
-The Azure Portal is available at https://portal.azure.com/, where services can be managed.
+The Azure Portal is available at [https://portal.azure.com/](https://portal.azure.com/), where services can be managed.
 
 # Portal Concepts
 
 ![Management Levels and Hierarchy](../assets/img/2024/azure-hierarchy.png)
 
-Source: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources
+Source: [https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources)
 
 ### Accounts
 - To use the Azure Portal, you will need to register an **Account**, which
@@ -100,7 +100,7 @@ It is important to note that not all services have the same SLAs, so it is cruci
 
 System SLAs are determined using a combination of the SLAs of the underlying services.  
 
-Online tools do exist for calculating SLAs, for example https://uptime.is/.
+Online tools do exist for calculating SLAs, for example [https://uptime.is/](https://uptime.is/).
 
 # Cost
 
@@ -111,7 +111,7 @@ Online tools do exist for calculating SLAs, for example https://uptime.is/.
   - Reservations - pay upfront for the resources, committing to use it for a specific amount of time
 - Always check the cost of resources before provisioning
 - Look for reservations when available and relevant
-- The Azure calculator should be used to calculate pricing (https://azure.microsoft.com/en-gb/pricing/calculator/)
+- The Azure calculator should be used to calculate pricing ([https://azure.microsoft.com/en-gb/pricing/calculator/](https://azure.microsoft.com/en-gb/pricing/calculator/))
 - Prices vary massively, depending on options picked.  For example, selecting the DTU purchase model as opposed to a vCore purchase model can make a huge difference for smaller use cases and proof of concept investigations.
 
 # Budgets
