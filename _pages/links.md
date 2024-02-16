@@ -118,3 +118,6 @@ permalink: /links
 
 - [PayScale's State of Remote Work](https://www.payscale.com/research-and-insights/remote-work/)
 
+## Motivation and Perspective
+
+- [We only deserve a styrofoam cup](https://www.youtube.com/watch?v=FNf1pKRhay8)
