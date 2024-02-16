@@ -46,7 +46,8 @@ A VM created with default options will cost (at the time of writing) around $180
 
 These costs can be reduced in a number of ways:
 
-- **Automatic shutdowns** so the machine does not run 24/7 - only run it when you need it.  This is a great option for test or development machines, and can be enabled as an option under the *Management* tab when configuring the VM.
+- **Turn it off** when you are not using it.  For machines that you only use intermittently, make sure you "Stop" them.  Stopping them will also deallocate their resources, and you will not be charged until the machine is started again.
+- - **Automatic shutdowns** so the machine does not run 24/7 - only run it when you need it.  This is a great option for test or development machines, and can be enabled as an option under the *Management* tab when configuring the VM.
   ![Azure VM automatic shutdown option!](../assets/img/2024/azure-vm-autoshutdown.png)
 - **Reserved instances** (you commit to using the resource for 1 or 3 years).  Usually done on production machines that must run 24/7.  This can be divided into monthly payments and cannot be stopped or refunded, but can give savings of up to 62%.
 - **Spot instances** allow you to use unused capacity in the Azure Data centres.  They offer up to 90% discounts, BUT your machine can be shut down at any moment if the capacity becomes required by a full paying client.  This is only really useful for non-critical background long-running calculations or batch jobs which can be interupted.  This can be enabled under the *Basic* tab when configuring your VM.  
