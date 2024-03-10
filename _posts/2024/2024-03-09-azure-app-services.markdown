@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Publishing web sites to Azure App Services
+title: Azure App Services
 date: 2024-03-09 14:56:00
 tags: azure
 published: true
@@ -71,8 +71,6 @@ Some useful things to note:
 - Deployment slots do allow for more complex deployment types:
   - Rolling - instances are updated gradually in batches.  This can be tricky as you will need to support multiple versions at the same time (this is especially tricky with database changes).
   - Blur-Green - New version is uploaded and accessible only to testers or to a BETA set of users.
-
-## Tips and Tricks
 
 
 
