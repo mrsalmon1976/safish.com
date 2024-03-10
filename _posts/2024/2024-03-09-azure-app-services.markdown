@@ -6,8 +6,6 @@ tags: azure
 published: true
 ---
 
-## Overview
-
 [Azure App Services](https://azure.microsoft.com/en-us/products/app-service) provides fully managed web hosting, allowing you to publish web sites to Azure without having to worry about to the underlying Virtual machine or any other infrastructure.  Azure manages upgrades of the underlying servers, security, compliance, etc..  
 
 At the time of writing, Azure App Services supports:
