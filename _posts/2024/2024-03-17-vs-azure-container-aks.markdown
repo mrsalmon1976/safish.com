@@ -145,7 +145,7 @@ Before starting, this assumes you have
    appearing with a *Type* of *LoadBalancer*, which means it is available externally (the other services are internal services).<br />
    ![AKS services and ingresses](../assets/img/2024/aks-services-and-ingresses.png)
 10. You will also see the external IP address of your service.  If you click that, it should now load your service in the browser.<br />
-   ![AKS running service](../assets/img/2024/aks-running-service.png)
+   ![AKS running service](../assets/img/2024/aks-running-service.png)<br />
  
  # Project launchSettings and Dockerfile
 
