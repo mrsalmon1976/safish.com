@@ -6,7 +6,7 @@ tags: [azure,aks,visualstudio]
 published: true
 ---
 
-This is a guide for creating a new web application in Visual Studio running as a container in a Kubernetes cluster on Azure.
+This is a guide for creating a new web application in Visual Studio running as a container in a Kubernetes cluster on Azure.  Note that I have created a [similar guide for VSCode here](/2024-03-17-vscode-azure-container-aks/). 
 
 Before starting, this assumes you have
 - Visual Studio installed, with a working knowledge of creating web applications
