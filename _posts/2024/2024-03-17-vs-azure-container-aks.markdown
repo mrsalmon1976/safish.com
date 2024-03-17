@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Publishing web services to AKS with Visual Studio
-date: 2024-03-17 15:20:00
+date: 2024-03-17 20:02:00
 tags: [azure,aks,visualstudio]
 published: true
 ---
@@ -147,7 +147,7 @@ Before starting, this assumes you have
 10. You will also see the external IP address of your service.  If you click that, it should now load your service in the browser.<br />
    ![AKS running service](../assets/img/2024/aks-running-service.png)
  
- # Dockerfile and launchSettings.json
+ # Project launchSettings and Dockerfile
 
  It is important to ensure that the Dockerfile exposes the correct ports, and tie up to the application launch settings.  My default files created by Visual Studio did not tie up and 
  resulted in my web site timing out.  I had to adjust the ports in the two files, republish 
