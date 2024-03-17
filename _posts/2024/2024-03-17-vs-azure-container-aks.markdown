@@ -147,13 +147,13 @@ Before starting, this assumes you have
 10. You will also see the external IP address of your service.  If you click that, it should now load your service in the browser.<br />
    ![AKS running service](../assets/img/2024/aks-running-service.png)<br />
  
- # Project launchSettings and Dockerfile
+ <h1> Project launchSettings and Dockerfile</h1>
 
  It is important to ensure that the Dockerfile exposes the correct ports, and tie up to the application launch settings.  My default files created by Visual Studio did not tie up and 
  resulted in my web site timing out.  I had to adjust the ports in the two files, republish 
  my container, and then reapply the deploy with `kubectl`.
 
- ## launchSettings.json
+ <h2>launchSettings.json</h2>
 
  ```json
  {
@@ -196,7 +196,7 @@ Before starting, this assumes you have
 }
 ```
 
-## Dockerfile
+<h2>Dockerfile</h2>
 
 ```docker
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
