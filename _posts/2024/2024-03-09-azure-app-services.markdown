@@ -2,7 +2,7 @@
 layout: post
 title: Azure App Services
 date: 2024-03-09 14:56:00
-tags: azure
+tags: [azure]
 published: true
 ---
 

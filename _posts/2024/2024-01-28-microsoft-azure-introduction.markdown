@@ -2,7 +2,7 @@
 layout: post
 title: A Microsoft Azure Introduction
 date: 2024-01-28 09:17:00
-tags: 
+tags: [azure]
 published: true
 ---
 

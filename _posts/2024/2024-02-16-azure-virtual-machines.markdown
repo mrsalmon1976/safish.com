@@ -2,7 +2,7 @@
 layout: post
 title: Azure Virtual Machines
 date: 2024-02-16 06:12:00
-tags: azure
+tags: [azure]
 published: true
 ---
 Azure provides classic IaaS (Infrastructure As A Service), allowing you to create and manage your own Virtual Machines.  The Host OS and the Hypervisor are completely managed by Microsoft Azure, and you manage the virtual machine(s).
