@@ -53,7 +53,9 @@ This may not be an issue with asynchronous triggers (e.g. queue reactions), but 
 
 ## Durable Functions
 
-- Stateful functions implementing the `IDurableOrchestrationContext` interfact that interact with external resources and keep track of flow
+- [Azure Durable functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=in-process%2Cnodejs-v3%2Cv1-model&pivots=csharp) are stateful functions implementing the `IDurableOrchestrationContext` interface that interact with external resources and keep track of flow
+- These allow you to write stateful functions in a serverless compute environment
 - Very simple syntax and hide the complexities of managing state, retries, etc
 - Very useful for function chaining (functions calling each other in sequence)
+- If a function halfway down a function chain fails, the Azure environment will handle this for you and ensure the durable function picks up from where it left off
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Azure Functions Local Development
-date: 2024-03-22 11:15:00
+date: 2024-03-22 13:22:00
 tags: [azure]
 published: true
 ---
