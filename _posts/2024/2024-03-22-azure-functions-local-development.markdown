@@ -18,9 +18,9 @@ This is of course a contrived exampled, but is a realistic example for when you 
 
 Create a new Azure Functions project, making sure you enable Azurite which will be used to emulate the Azure queue storage
 
-![Create an Azure functions project](../assets/img/2077724/azure-functions-project.png)
+![Create an Azure functions project](../assets/img/2024/azure-functions-project.png)
 
-![Create an Azure functions project with Azurite](../assets/img/2077724/azure-functions-project2.png)
+![Create an Azure functions project with Azurite](../assets/img/2024/azure-functions-project2.png)
 
 # Set up Dependency Injection
 
@@ -78,7 +78,7 @@ Azure Queue Storage is very easy to set up - you can use the [Azurite storage em
 
 For CosmosDB, you will need the [CosmosDB Emulator](https://learn.microsoft.com/en-us/azure/cosmos-db/emulator) installed.  Once installed, open the emulator and go to the quickstart open to retrieve your connection string.
 
-![CosmosDB Emulator](../assets/img/2077724/azure-functions-cosmosdb-emulator.png)
+![CosmosDB Emulator](../assets/img/2024/azure-functions-cosmosdb-emulator.png)
 
 Add the connection string to your *local.settings.json* file:
 
@@ -186,7 +186,7 @@ Some items to note:
 
 If you run your project now, you should see the function exposed:
 
-![Functions visible when running the functions project](../assets/img/2077724/azure-functions-run-project1.png)
+![Functions visible when running the functions project](../assets/img/2024/azure-functions-run-project1.png)
 
 Because this function defines an HttpTrigger, you can see the URL exposed for your trigger.
 
@@ -299,7 +299,7 @@ Some items to note:
 
 If you run your project now, you will see there are two functions available:
 
-![Functions visible when running the functions project](../assets/img/2077724/azure-functions-run-project2.png)
+![Functions visible when running the functions project](../assets/img/2024/azure-functions-run-project2.png)
 
 # Running the Project
 
@@ -311,7 +311,7 @@ http://localhost:7183/api/SubmitUrl?url=https://www.google.com&pollInterval=1
 
 This results in an item stored in CosmosDb:
 
-![CosmosDb saved document](../assets/img/2077724/azure-functions-db-item.png)
+![CosmosDb saved document](../assets/img/2024/azure-functions-db-item.png)
 
 With the PollInterval set to 1, it also results in a new execution 1 minute later.
 
