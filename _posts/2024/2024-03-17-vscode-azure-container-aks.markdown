@@ -11,7 +11,7 @@ This is a guide for creating a new web application in VSCode running as a contai
 Before starting, this assumes you have
 - VSCode installed, with a working knowledge of creating web applications
   - The Docker extension to VSCode is installed
-  - The Azure extension to VSCode is installed
+  - The [Azure Tools extensions](https://code.visualstudio.com/docs/azure/extensions) for VSCode are installed
 - The Azure CLI installed and in your path
 - You have a working Azure account, with some basic knowledge of how to navigate it
 

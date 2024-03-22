@@ -64,7 +64,7 @@ permalink: /links
 
 - [Robo 3T](https://robomongo.org/) - free, open source GUI for MongoDB
 
-## Multimedia
+## Multimedia 
 
 - [http://www.favicon.cc/](http://www.favicon.cc/) - create your own icons
 - [PNGOUT](http://advsys.net/ken/utils.htm) – this is a FREE tool that reduces the size of PNG files by 5 – 30%.  Running this on all images for presentations, blog posts and web sites is a pretty good idea!
@@ -72,6 +72,7 @@ permalink: /links
 - [MediaInfo](https://mediaarea.net/en/MediaInfo) - inspect video/audio media info
 - [Greenshot](https://getgreenshot.org/) - screen capture with easy obfuscation, highlighting and editing
 - [Draw.io](https://github.com/jgraph/drawio-desktop/releases) - free diagrams/charts desktop tool
+- [https://excalidraw.com/](https://excalidraw.com/) - an amazing scratch tool that can turn words into charts
 
 ## Podcasts
 
