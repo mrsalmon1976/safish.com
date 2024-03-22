@@ -273,7 +273,7 @@ public class ExecuteWebRequest
         };
 
         // save the result to the database
-        var container = _dbContext.GetContainer(HeartbeatServiceContainer.HeartbeatWebRequest);
+        var container = _dbContext.GetContainer("WebRequest");
         await container.CreateItemAsync<WebRequestSubmission>(webRequest);
 
         // add a new queued item
