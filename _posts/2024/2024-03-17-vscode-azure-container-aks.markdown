@@ -125,7 +125,7 @@ Before starting, this assumes you have
    README.md
    ```
 7. Click the Debug icon on the left, and click *create a launch.json* and select the C# debugger<br />
-   ![VSCode create launch.json](../assets/img/2077724/vscode-create-launch.png)
+   ![VSCode create launch.json](../assets/img/2024/vscode-create-launch.png)
 8. Run your project locally to ensure it works correctly.
 
 # Create a Container Registry
@@ -136,7 +136,7 @@ Before starting, this assumes you have
 4. Create a name for your registry, I used *mattakscr*
 5. Select a location
 6. Select the *Basic* pricing plan (this can be changed later)<br />
-   ![Create container registry in Azure Portal](../assets/img/2077724/aks-cr.png)
+   ![Create container registry in Azure Portal](../assets/img/2024/aks-cr.png)
 7. Click *Review + Create*, and then *Create*
 8. Wait for the deployment to complete, and you can then go to the resource
 9. Click *Access keys* on the left and enable the admin user<br />
