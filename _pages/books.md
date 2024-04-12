@@ -7,6 +7,7 @@ permalink: /books
 ## 2024
 
 - [Fairy Tale](https://www.goodreads.com/en/book/show/60177373) - Stephen King (3/5)
+- [Beneath a Scarlet Sky](https://www.goodreads.com/book/show/32487617-beneath-a-scarlet-sky) - Mark Sullivan (4/5)
 
 ## 2023
 
