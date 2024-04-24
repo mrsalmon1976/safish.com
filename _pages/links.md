@@ -38,6 +38,7 @@ permalink: /links
 - [Prefix](https://stackify.com/prefix/) - code profiler by Stackify
 - [MiniProfiler](https://miniprofiler.com/) - free profiler tool for .NET, Ruby, Go, and Node.js
 - [https://jsonformatter.org/](https://jsonformatter.org/) - online JSON formatter
+- [PHPrex](https://phphub.net/regex/) - online visual regex tester
   
 ## Editors
 
