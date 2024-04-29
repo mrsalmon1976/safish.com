@@ -58,10 +58,27 @@ published: true
 - Use NSG for protection
 - Network Peering can span across regions (whereas a single VNet cannot)
 - Is not free - you pay for bandwidth used
+- Configuration is done on both sides (i.e. when creating a network peer you configure it from both directions and two peers will be created). Make sure configure your NSGs/VMs so only specific traffic is allowed (under Network Settings).
 
+## Network Watcher
+
+- Can be used to display your network topology to get a high level view of your environment
+- Can also be used to troubleshoot connection issues (see *Connection troubleshoot* menu option)
+
+## Securing VM Access
+
+- Allowing general access via RDP is always a bad idea.  There are four techniques that can be used to secure VM access:
+  - Just In Time (JIT) Access - open ports only when we need it, and then automatically close it.  Can be configured from the VMs page, but requires a Security Centre license upgrade.  This can be accessed from the VM in the portal, under the *Configuration* menu option, which has a "Just-in-time VM access" option.
+  - VPN - allows for a secure tunnet to the VNet.  Requires VPN software and license, which are not part of Azure.
+  - Jump Box - place another VM in the VNet and allow access to that VM only via one port only, and then access the other machines from that.  Obviously, this machine is still exposed on the Intranet, so you want to lock down access to this VM, preferably to a static IP address range.
+  - [Bastion](https://azure.microsoft.com/en-us/products/azure-bastion#:~:text=Azure%20Bastion%20is%20a%20fully,exposure%20through%20public%20IP%20addresses.) - a web-based connection to the VM, with no open ports required.  It is simple, secure, and expensive ($140 per month).  Bastion also requires you have portal access (RDP does not).
+
+## Securing Services
+
+- Many managed sevices (e.g. databases like SQL Server, MySql, CosmosDb) expose public IP addresses.  This can be protected with one of two methods:
+  - [Service EndPoints](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/service-endpoints-vs-private-endpoints/ba-p/3962134) - legacy solution that ensures that data never leaves the Azure backbone when your VMs/Apps communicate with the service.  Needs to be enabled on the Subnet from which you want to access the resource.
+  -  [Private Links](https://learn.microsoft.com/en-us/azure/private-link/private-link-overview) - this is a newer solution which extends the managed service into the VNet, so traffic never leaves the VNet.  VMs talk to the App Service via private IP.  To use these, you must configure the resource to connecto the VNet, and you create a private link between the VM and the resource.  Most of the resources available support Private Links (more than Service Endpoints).  Private links are the preferred solution, but unfortunately are not free.
 
 ## Load Balancer
 
 ## Application Gateway
-
-## Network Peering
