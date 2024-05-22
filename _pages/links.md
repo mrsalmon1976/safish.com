@@ -85,6 +85,17 @@ permalink: /links
 ## Security
 
 - [https://www.ncsc.gov.uk/guidance/password-guidance-simplifying-your-approach](https://www.ncsc.gov.uk/guidance/password-guidance-simplifying-your-approach) - don't take my word for it: password guidance from the NCSC
+- [Google](https://www.google.com) - good old Google can be used to query sites looking for login information
+- [Wayback Machine](https://sep11.wikipedia.org/) - can be used to look at previous versions of your site to see what files are changing, and can be used nefariously to try exploit old code
+- [Shodan](https://www.shodan.io/) - can be used to search and reveal sensitive certificate information about your domain
+- [Web Check](https://web-check.as93.net/) - can be used to pull security information about your sites
+- [DNS Dumpster](https://dnsdumpster.com/) - can be used to get a list of host records for a particular domain
+- [Dehashed](https://dehashed.com/) - public breaches, search e.g. domain:iua.co.za
+- [';--have i been pwned?](https://haveibeenpwned.com/) - free tool for monitoring your email addresses appearing in data breaches
+- [BuiltWith](https://builtwith.com/) - analyse technology profile of a site
+- [Wappalyzer](https://www.wappalyzer.com/) - browser extension technology profiler for a web site
+- [Netcraft](https://www.netcraft.com/apps-extensions/browser-extension/) - browser extension that will analyze the tech stack and also warns users of potential attacks
+- [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) - free dependency checker
 
 ## Source Control
 
