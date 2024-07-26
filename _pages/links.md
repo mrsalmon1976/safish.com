@@ -30,6 +30,7 @@ permalink: /links
 - [Humanizer](https://github.com/Humanizr/Humanizer) - library for turning values into human-readable strings
 - [Polly](https://github.com/App-vNext/Polly) - resilience and transient-fault-handling library, including Retry, Rate Limits, etc
 - [Quartz.NET](https://www.quartz-scheduler.net/) - scheduler library
+- [MiniProfiler](https://miniprofiler.com/) - a free, very useful profiling tool for .NET and .NET Core
 
 ## Development Tools
 
@@ -44,6 +45,10 @@ permalink: /links
 
 - [Notepad++](https://notepad-plus-plus.org/downloads/) - best text editor by far...and it's free
 - [Visual Studio Code](https://code.visualstudio.com/) - best code editor by far...and it's free
+
+## Financial
+
+- [10 Lessons from Buffet and Munger](https://www.moneyweb.co.za/moneyweb-opinion/soapbox/10-lessons-from-buffett-and-munger/)
 
 ## Hardware
 
@@ -113,6 +118,7 @@ permalink: /links
 - [http://feeds.feedburner.com/ScottHanselman](http://feeds.feedburner.com/ScottHanselman)
 - [http://feeds.feedburner.com/TroyHunt](http://feeds.feedburner.com/TroyHunt)
 - [http://feeds.haacked.com/haacked](http://feeds.haacked.com/haacked)
+- [https://samwho.dev/blog/]
 
 ## Utilities for Windows
 
