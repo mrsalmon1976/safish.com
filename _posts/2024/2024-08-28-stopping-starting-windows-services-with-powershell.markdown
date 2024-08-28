@@ -8,7 +8,7 @@ published: true
 
 This is a useful Powershell snippet for my future reference.  At my work, we install Windows services across multiple application servers, and these services are all named by convention with a common prefix.
 
-Sometimes, for example if we need to reboot the database services, it is useful to stop all the services so we don't get flooded with error alerts.
+Sometimes, for example if we need to reboot the database servers, it is useful to stop all the services so we don't get flooded with error alerts.
 
 This script uses the naming convention to list all the services, and stop/start them depending on input from the user:
 
