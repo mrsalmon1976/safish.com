@@ -129,7 +129,7 @@ Running this script will give the following output:
 ![Servers needing a reboot](../assets/img/2024/powershell-server-reboot-output.png)
 
 In the image, the colours are important:
- - Green means the server has no pending file updates and does not need to be rebooted
- - Grey means the server is not reachable
- - Red means the server has pending Windows updates, and needs a reboot
- - Yellow means the server has pending file rename changes - this could be caused by software and not necessarily by Windows updates, but its worth keeping on your radar
+ - <span style="color:#00F12E;">Green</span> means the server has no pending file updates and does not need to be rebooted
+ - <span style="color:#7E7A74;">Grey</span> means the server is not reachable
+ - <span style="color:red;">Red</span> means the server has pending Windows updates, and needs a reboot
+ - <span style="color:yellow;">Yellow</span> means the server has pending file rename changes - this could be caused by software and not necessarily by Windows updates, but its worth keeping on your radar
