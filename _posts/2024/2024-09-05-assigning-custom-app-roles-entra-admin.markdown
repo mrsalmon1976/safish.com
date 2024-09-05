@@ -6,7 +6,7 @@ tags: [azure]
 published: true
 ---
 
-I find the [Entra ad min center](https://entra.microsoft.com/) completely unintuitive when it comes to assigning custom roles to my own enterprise applications, so this post is a reminder as to how to create and assign the roles.
+I find the [Entra admin center](https://entra.microsoft.com/) completely unintuitive when it comes to assigning custom roles to my own enterprise applications, so this post is a reminder to myself as to how to create and assign the roles.
 
 ## Add Custom Roles
 
@@ -18,7 +18,8 @@ I find the [Entra ad min center](https://entra.microsoft.com/) completely unintu
 
 ## Assigning App Roles
 
-- You can assign one role to multiple users/groups at a time
+You can assign one role to multiple users/groups at a time:
+
 - In the admin center, go to the **Applications...Enterprise applications** menu item
 - Search for your application and click on it
 - Click **Users and groups**
@@ -27,7 +28,7 @@ I find the [Entra ad min center](https://entra.microsoft.com/) completely unintu
 
 ![Entra Admin Center app role assignment](../assets/img/2024/entra-app-role-assignment.png)
 
-You should now be able to see our role assignments in the **Users and groups page**
+You should now be able to see your role assignments in the **Users and groups page**
 
 ![Entra role assignments](../assets/img/2024/entra-role-assignments.png)
 
