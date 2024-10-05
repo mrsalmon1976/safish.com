@@ -8,7 +8,7 @@ SftpScheduler is a web-based tool used to schedule SFTP jobs. It can be installe
 
 This is useful if your company creates a large number of scheduled SFTP up/downloads.
 
-Full details can be seen on GitHub: https://github.com/mrsalmon1976/SftpScheduler
+Full details can be seen on GitHub: [https://github.com/mrsalmon1976/SftpScheduler](https://github.com/mrsalmon1976/SftpScheduler)
 
 ## Features
 
