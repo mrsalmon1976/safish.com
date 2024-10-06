@@ -73,12 +73,41 @@ published: true
   - Jump Box - place another VM in the VNet and allow access to that VM only via one port only, and then access the other machines from that.  Obviously, this machine is still exposed on the Intranet, so you want to lock down access to this VM, preferably to a static IP address range.
   - [Bastion](https://azure.microsoft.com/en-us/products/azure-bastion#:~:text=Azure%20Bastion%20is%20a%20fully,exposure%20through%20public%20IP%20addresses.) - a web-based connection to the VM, with no open ports required.  It is simple, secure, and expensive ($140 per month).  Bastion also requires you have portal access (RDP does not).
 
+# Securing App Services
+
+- You are able to restrict traffic to app services, where by default, all inbound traffic is allowed
+- Using access restrictions, you can limit inbound traffic to whitelisted IPs, VNets and Service Tags
+- Examples:
+  - Limit access to an App Service only to the Load Balancer or Application Gateway in front of it
+  - Limit backend App Services that should only be accessed from the Front End App Service / VM
+  - Limit an App Service to a specific whitelisted IP Range
+- To apply access restrictions to App Services, navigate to the app service in the portal and
+  - Go to "Networking"
+  - Go to "Access restriction" under "Unbound Traffic"
+  - Turn off "Allow public access" (if applicable)
+  - Add a rule on the Main site
+
 ## Securing Services
 
 - Many managed sevices (e.g. databases like SQL Server, MySql, CosmosDb) expose public IP addresses.  This can be protected with one of two methods:
   - [Service EndPoints](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/service-endpoints-vs-private-endpoints/ba-p/3962134) - legacy solution that ensures that data never leaves the Azure backbone when your VMs/Apps communicate with the service.  Needs to be enabled on the Subnet from which you want to access the resource.
   -  [Private Links](https://learn.microsoft.com/en-us/azure/private-link/private-link-overview) - this is a newer solution which extends the managed service into the VNet, so traffic never leaves the VNet.  VMs talk to the App Service via private IP.  To use these, you must configure the resource to connecto the VNet, and you create a private link between the VM and the resource.  Most of the resources available support Private Links (more than Service Endpoints).  Private links are the preferred solution, but unfortunately are not free.
+ - Use Hub ans Spoke network design - put each service in its own VNet
 
 ## Load Balancer
 
+- This is an Azure service that distributes loads and checks the health of the underlying VMs (when a VM is unhealthy for more than a few seconds no traffic is directed to it)
+- Load Balancer can work with VMs or with Scale Sets, and be public or private, operating at Layer 4 of the [OSI Model](https://learn.microsoft.com/en-us/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model)
+- In terms of architecture, you could expose a web site hosted on multiple VMs via a public load balancer, and each of those web servers could connect to app services on a backend via a private internal load balancer
+- The Azure Basic load balancer is free, but has no redundancy, no SLA, and is open by default.  For more security and a 99.99% SLA, you will need to pay for the Standard load balancer (which has other other benefits)
+- Load Balancer cannot handle HTTP and doesn't route based on path or apply any protection - for web traffic you should rather use an Application Gateway
+
 ## Application Gateway
+
+- Effectively a load balancer with HTTP and web capabilities (e.g. header/url rewrite, session affinity, SSL termination, URL based routing, Websockets, zone redundancy, custom error pages, WAF, etc)
+- Works with VMs and VM Scale Sets, but also supports App Services and Kubernetes
+- operates at layer 7 of the [OSI Model](https://learn.microsoft.com/en-us/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model), and so can inspect headers, URL, etc
+- Usually placed in its own Subnet, and often in its own VNet - with backend resources to accessible from anywhere else
+- Can also protect your Azure functions (function apps are basically App Services) - configure the functions in a Backend pool and configure access restrictions
+- Enable cookie-based affinity to ensure the same user is always directed to the same backend VM or App service (although this obviously has load-balancing implications and should be avoided when possible - rather design a stateless application)
+- One thing to be aware of is that cookies attached to responses in App Services behind an Application Gateway will have a different domain to the domain requested by the client (e.g. myapp.azurewebsites.net) - which will result in the browser discarding the cookie.  To solve this, you will need to set the custom domain for the app service to the same as that set on the Application Gateway (App Service / Custom domains on the Azure Portal)
