@@ -25,13 +25,10 @@ permalink: /links
 - [CustomGPT.ai](https://customgpt.ai/) - create custom GPT with your own business content
 - [Replicate](https://replicate.com/) - provides access to trained AI models via API
 
-## .NET Libraries
+## Careers
 
-- [HangFire](https://www.hangfire.io/) - background processing in .NET
-- [Humanizer](https://github.com/Humanizr/Humanizer) - library for turning values into human-readable strings
-- [Polly](https://github.com/App-vNext/Polly) - resilience and transient-fault-handling library, including Retry, Rate Limits, etc
-- [Quartz.NET](https://www.quartz-scheduler.net/) - scheduler library
-- [MiniProfiler](https://miniprofiler.com/) - a free, very useful profiling tool for .NET and .NET Core
+- [The Engineering Manager](https://www.theengineeringmanager.com/management-101/)
+- [Developer Roadmaps](https://roadmap.sh/)
 
 ## Development Tools
 
@@ -41,7 +38,15 @@ permalink: /links
 - [MiniProfiler](https://miniprofiler.com/) - free profiler tool for .NET, Ruby, Go, and Node.js
 - [https://jsonformatter.org/](https://jsonformatter.org/) - online JSON formatter
 - [PHPrex](https://phphub.net/regex/) - online visual regex tester
-  
+
+## .NET Libraries
+
+- [HangFire](https://www.hangfire.io/) - background processing in .NET
+- [Humanizer](https://github.com/Humanizr/Humanizer) - library for turning values into human-readable strings
+- [Polly](https://github.com/App-vNext/Polly) - resilience and transient-fault-handling library, including Retry, Rate Limits, etc
+- [Quartz.NET](https://www.quartz-scheduler.net/) - scheduler library
+- [MiniProfiler](https://miniprofiler.com/) - a free, very useful profiling tool for .NET and .NET Core
+
 ## Editors
 
 - [Notepad++](https://notepad-plus-plus.org/downloads/) - best text editor by far...and it's free
@@ -62,10 +67,6 @@ permalink: /links
 ## jQuery
 
 - [Reveal](https://zurb.com/playground/reveal-modal-plugin) - very nice modal dialog implementation
-
-## Management
-
-- [The Engineering Manager](https://www.theengineeringmanager.com/management-101/)
 
 ## MongoDb
 
@@ -102,6 +103,7 @@ permalink: /links
 - [Wappalyzer](https://www.wappalyzer.com/) - browser extension technology profiler for a web site
 - [Netcraft](https://www.netcraft.com/apps-extensions/browser-extension/) - browser extension that will analyze the tech stack and also warns users of potential attacks
 - [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/) - free dependency checker
+- [OWASP Secure Coding Practices](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/stable-en/02-checklist/05-checklist.html) - technology-agnostic list of things to look out for!
 
 ## Source Control
 
