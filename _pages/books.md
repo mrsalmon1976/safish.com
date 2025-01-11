@@ -4,7 +4,7 @@ title: Books
 permalink: /books
 ---
 
-The below list is incmplete prior to 2024.
+The below list is incomplete prior to 2024.
 
 ## 2025
 
