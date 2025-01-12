@@ -43,7 +43,7 @@ You could read the value of the "File" key in the following way:
   Dim lngResult As Long
   Dim strFileName
   Dim strResult As String * 50
-  strFileName = "C:MyIniFile.ini"
+  strFileName = "C:\MyIniFile.ini"
 	
   lngResult = GetPrivateProfileString("MyHeading", _
     "File", strFileName, strResult, Len(strResult), _
@@ -63,7 +63,7 @@ You could change the value of the same key in the following way:
 ```vb
   Dim lngResult As Long
   Dim strFileName
-  strFileName = "C:MyIniFile.ini"
+  strFileName = "C:\MyIniFile.ini"
   lngResult = WritePrivateProfileString("MyHeading", "File", "NewValue", strFileName)
 
   If lngResult = 0 Then
