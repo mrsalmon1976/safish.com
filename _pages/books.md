@@ -85,7 +85,13 @@ The below list is incomplete prior to 2024.
 
 - [The Shadow of the Wind](https://en.wikipedia.org/wiki/The_Shadow_of_the_Wind) - Carlos Zafon (4/5)
 - [The Mistborn Trilogy](https://en.wikipedia.org/wiki/Mistborn) - Brandon Sanderson (4/5)
+  - [The Final Empire](https://en.wikipedia.org/wiki/Mistborn:_The_Final_Empire)
+  - [The Well of Ascension](https://en.wikipedia.org/wiki/Mistborn:_The_Well_of_Ascension)
+  - [The Hero of Ages](https://en.wikipedia.org/wiki/Mistborn:_The_Hero_of_Ages)
 - [The Wool Trilogy (aka Silo)](https://en.wikipedia.org/wiki/Silo_(series)) - Hugh Howey (5/5)
+  - Wool
+  - Shift
+  - Dust
 - [The Algebraist](https://en.wikipedia.org/wiki/The_Algebraist) - Iain M. Banks (5/5)
 - [The Honour of the Knights](https://www.amazon.com/Honour-Knights-First-Battle-System-ebook/dp/B0047DWCDO) - Steven J Sweeny (3/5)
 
@@ -102,7 +108,7 @@ The below list is incomplete prior to 2024.
   - The Blade Itself
   - Before They Are Hanged
   - Last Argument of Kings
-- [The Wheel of Time](https://en.wikipedia.org/wiki/The_Wheel_of_Time) - Robert Jordan (with Brandon Sanderson) (4/5)
+- [The Wheel of Time (#11 - #14)](https://en.wikipedia.org/wiki/The_Wheel_of_Time) - Robert Jordan (with Brandon Sanderson) (4/5)
   - [Knife of Dreams](https://en.wikipedia.org/wiki/Knife_of_Dreams)
   - [The Gathering Storm](https://en.wikipedia.org/wiki/The_Gathering_Storm_(novel))
   - [Towers of Midnight](https://en.wikipedia.org/wiki/Towers_of_Midnight)
@@ -110,7 +116,7 @@ The below list is incomplete prior to 2024.
 
 ## 2014
 
-- [The Wheel of Time](https://en.wikipedia.org/wiki/The_Wheel_of_Time) - Robert Jordan (3/5)
+- [The Wheel of Time (#7 - #10)](https://en.wikipedia.org/wiki/The_Wheel_of_Time) - Robert Jordan (3/5)
   - [A Crown of Swords](https://en.wikipedia.org/wiki/A_Crown_of_Swords)
   - [The Path of Daggers](https://en.wikipedia.org/wiki/The_Path_of_Daggers)
   - [Winter's Heart](https://en.wikipedia.org/wiki/Winter%27s_Heart)
@@ -120,7 +126,7 @@ The below list is incomplete prior to 2024.
 
 - [The Five Dysfunctions of a Team, A Leadership Fable](https://www.runn.io/blog/5-dysfunctions-of-a-team-summary) - Patrick Lencioni (3/5)
 - [In Her Name Series](https://www.goodreads.com/series/62231-in-her-name) - Michael R. Hicks (3/5)
-- [The Wheel of Time](https://en.wikipedia.org/wiki/The_Wheel_of_Time) - Robert Jordan (3/5)
+- [The Wheel of Time (#1 - #6)](https://en.wikipedia.org/wiki/The_Wheel_of_Time) - Robert Jordan (3/5)
   - [The Eye of the World](https://en.wikipedia.org/wiki/The_Eye_of_the_World)
   - [The Great Hunt](https://en.wikipedia.org/wiki/The_Great_Hunt)
   - [The Dragon Reborn](https://en.wikipedia.org/wiki/The_Dragon_Reborn)
