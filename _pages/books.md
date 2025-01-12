@@ -36,6 +36,11 @@ The below list is incomplete prior to 2024.
 ## 2022
 
 - [The Demon Cycle](https://www.amazon.com/The-Demon-Cycle-5-book-series/dp/B0771P3VZV) - Peter V. Brett (5/5)
+  - [The Painted Man](https://en.wikipedia.org/wiki/The_Painted_Man)
+  - [The Desert Spear](https://en.wikipedia.org/wiki/The_Desert_Spear)
+  - [The Daylight War](https://en.wikipedia.org/wiki/The_Daylight_War)
+  - [The Skull Throne](https://www.goodreads.com/book/show/13630171-the-skull-throne)
+  - [The Core](https://www.goodreads.com/book/show/16096968-the-core)
 - [Winter of the World](https://en.wikipedia.org/wiki/Winter_of_the_World) - Ken Follett (3/5)
 - [Software Architecture: The Hard Parts: Modern Trade-Off Analyses for Distributed Architectures](https://software.safish.com/2022-10-29-architecture-book-review/) - Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani (4/5)
 
@@ -62,7 +67,6 @@ The below list is incomplete prior to 2024.
   - [The Reality Dysfunction](https://en.wikipedia.org/wiki/The_Reality_Dysfunction)
   - [The Neutronium Alchemist](https://en.wikipedia.org/wiki/The_Neutronium_Alchemist)
   - [The Naked God](https://en.wikipedia.org/wiki/The_Naked_God)
-
 
 ## 2019
 
