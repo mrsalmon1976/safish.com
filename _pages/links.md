@@ -37,8 +37,9 @@ permalink: /links
 - [ILSpy](https://github.com/icsharpcode/ILSpy) - open-source .NET assembly browser and decompiler
 - [Prefix](https://stackify.com/prefix/) - code profiler by Stackify
 - [MiniProfiler](https://miniprofiler.com/) - free profiler tool for .NET, Ruby, Go, and Node.js
-- [https://jsonformatter.org/](https://jsonformatter.org/) - online JSON formatter
+- [jsonformatter.org](https://jsonformatter.org/) - online JSON formatter
 - [PHPrex](https://phphub.net/regex/) - online visual regex tester
+- [Postman](https://www.postman.com/) - the ultimate API development platform
 
 ## .NET Libraries
 
