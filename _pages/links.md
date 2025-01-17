@@ -24,6 +24,7 @@ permalink: /links
 - [Microsoft Designer](https://designer.microsoft.com/) - use AI to generate images and logos
 - [CustomGPT.ai](https://customgpt.ai/) - create custom GPT with your own business content
 - [Replicate](https://replicate.com/) - provides access to trained AI models via API
+- [Napkin](https://www.napkin.ai/) - generate visuals from text
 
 ## Careers
 
