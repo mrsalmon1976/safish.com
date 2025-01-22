@@ -16,14 +16,14 @@ and the HandbrakeCLI is a little clunky and too slow for what I want.
 
 I've been trying for ages to convert the files to .mp4 with [ffmpeg](http://ffmpeg.org/), but the 
 damn things just wouldn't play. I finally worked it out today. The mpegs have 5 channel Dolby 
-audio - the XBox 360 doesn't support that. All I needed to do was restrict the audion channels 
+audio - the XBox 360 doesn't support that. All I needed to do was restrict the audio channels 
 to 2 on the output, and it worked! I haven't seen this anywhere on the web, so here goes:
 
 ```batch
-ffmpeg.exe -i input.mpg -sameq -ac 2 -aspect 16:9 output.mp4
+ffmpeg.exe -i input.mpg -qscale 0 -ac 2 -aspect 16:9 output.mp4
 ```
 
-The `-sameq` tag forces the quality to be the same as the source. The `-aspect` is required for 
+The `-qscale 0` option uses a fixed quality scale. The `-aspect` is required for 
 my files as the mpegs had a strange 2.34 aspect on them that made the resulting video play in a 
 stretched mode (no idea why). The `-ac 2` was the piece I was missing - this restricts the audio 
 channels to 2, and my mp4 files now work on my XBox (which, incidentally, has the optional media 
