@@ -288,4 +288,7 @@ Now, you can use the content from the similar items to add context.
 
 # Other
 
-Full example source code: https://github.com/mrsalmon1976/playground-mistral-pgsql-rag (See LocalVectorSearch example)
+Full example source code: https://github.com/mrsalmon1976/playground-mistral-pgsql-rag (See CricketLawChangeChat example)
+
+- [Mistral, RAG and .NET](https://software.safish.com/2025-02-15-mistral-rag/)
+- [Mistral, RAG Functions and .NET](https://software.safish.com/2025-02-15-mistral-rag-functions/)

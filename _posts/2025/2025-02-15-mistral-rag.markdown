@@ -117,3 +117,6 @@ The are some key points to note:
 # Other
 
 Full example source code: https://github.com/mrsalmon1976/playground-mistral-pgsql-rag (See CricketLawChangeChat example)
+
+- [Mistral, Embeddings, PostgreSQL and .NET](https://software.safish.com/2025-02-15-mistral-embeddings-with-postgresql/) 
+- [Mistral, RAG Functions and .NET](https://software.safish.com/2025-02-15-mistral-rag-functions/)
