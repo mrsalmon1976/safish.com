@@ -125,7 +125,7 @@ permalink: /links
 - [http://feeds.feedburner.com/ScottHanselman](http://feeds.feedburner.com/ScottHanselman)
 - [http://feeds.feedburner.com/TroyHunt](http://feeds.feedburner.com/TroyHunt)
 - [http://feeds.haacked.com/haacked](http://feeds.haacked.com/haacked)
-- [https://samwho.dev/blog/]
+- [https://samwho.dev/blog/](https://samwho.dev/blog/)
 
 ## Utilities for Windows
 
