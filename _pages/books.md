@@ -8,6 +8,11 @@ The below list is incomplete prior to 2024.
 
 ## 2025
 
+- [Emperor Series](https://www.goodreads.com/series/44444-emperor) - Conn Iggulden (3/5)
+  - [The Gates of Rome](https://www.goodreads.com/book/show/330947.The_Gates_of_Rome)
+  - [The Death of Kings](https://www.goodreads.com/book/show/671724.The_Death_of_Kings)
+
+
 - [Asterix the Gaul](https://en.wikipedia.org/wiki/Asterix_the_Gaul) - René Goscinny and Albert Uderzo (4/5)
 - [Asterix and the Golden Sickle](https://en.wikipedia.org/wiki/Asterix_and_the_Golden_Sickle) - René Goscinny and Albert Uderzo (4/5)
 
