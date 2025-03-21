@@ -27,11 +27,11 @@ PhotoTool is a simple image processing application with some basic image functio
 
 ### Batch Resizer 
 
-<img src="{{ 'assets/img/software/screen_phototool_batchresizer' | relative_url }}" alt="PhotoTool Batch Resizer screenshot" />
+<img src="{{ 'assets/img/software/screen_phototool_batchresizer.png' | relative_url }}" alt="PhotoTool Batch Resizer screenshot" />
 
 ### Face Search
 
-<img src="{{ 'assets/img/software/screen_phototool_facerecognition' | relative_url }}" alt="PhotoTool Face Search screenshot" />
+<img src="{{ 'assets/img/software/screen_phototool_facerecognition.png' | relative_url }}" alt="PhotoTool Face Search screenshot" />
 
 ## Download 
 
