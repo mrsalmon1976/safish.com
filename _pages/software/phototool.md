@@ -4,28 +4,35 @@ title: PhotoTool
 permalink: /software/phototool
 ---
 
-PhotoTool is a simple image processing tool designed specifically for web 
-sites.  It takes a batched group of photos, and resizes them to a 
-specified image size, and (optionally) generates thumbnails for the 
-images.
+PhotoTool is a simple image processing application with some basic image functionality useful for your own photo library.
 
 ## Features
 
-* Allows user to select multiple images to resize
-* Optional thumbnail generation
-* Option to replace spaces with underscores
-* Specify longest side of both image and thumbnails
-* Adjust output image quality
-* Support for multiple image formats, including .HEIC files (read-only, will convert to .JPEG)
+- Batch image resizing
+  - Allows user to select multiple images to resize
+  - Optional thumbnail generation
+  - Specify longest side of both image and thumbnails
+- Facial recognition
+  - Load and save faces that you would like to search for
+  - Recursively search for faces within a folder
+- Support for multiple image formats
 
 ## Requirements
 
-* Windows 7
-* 1GB RAM recommended
-* .NET Runtime 4.0
+- Windows 7sp1
+- 4GB RAM recommended
+- A decent CPU and graphics card are useful when searching for faces
 
-## Screenshot
+## Screenshots
 
-<img src="{{ 'assets/img/software/screen_phototool.png' | relative_url }}" alt="PhotoTool screenshot" />
+### Batch Resizer 
+
+<img src="{{ 'assets/img/software/screen_phototool_batchresizer' | relative_url }}" alt="PhotoTool Batch Resizer screenshot" />
+
+### Face Search
+
+<img src="{{ 'assets/img/software/screen_phototool_facerecognition' | relative_url }}" alt="PhotoTool Face Search screenshot" />
+
+## Download 
 
 <a href="https://github.com/mrsalmon1976/PhotoTool/releases/latest" class="main">Download the latest version</a>
