@@ -15,6 +15,7 @@ permalink: /links
 
 - [NetArchTest](https://github.com/BenMorris/NetArchTest) - use this to enforce architectural patterns in your code
 - [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons/) - you can download icon sets here to create Azure architecture diagrams
+- [Vertically Sliced Architecture](https://www.youtube.com/watch?v=1PAGtLwOH4Y&t)
 
 ## Artificial Intelligence
 
