@@ -13,9 +13,9 @@ The below list is incomplete prior to 2024.
   - [The Death of Kings](https://www.goodreads.com/book/show/671724.The_Death_of_Kings)
 - [Fatherland](https://en.wikipedia.org/wiki/Fatherland_(novel)) - Robert Harris (3/5)
 
-
 - [Asterix the Gaul](https://en.wikipedia.org/wiki/Asterix_the_Gaul) - René Goscinny and Albert Uderzo (4/5)
 - [Asterix and the Golden Sickle](https://en.wikipedia.org/wiki/Asterix_and_the_Golden_Sickle) - René Goscinny and Albert Uderzo (4/5)
+- [Asterix and the Goths](https://en.wikipedia.org/wiki/Asterix_and_the_Goths) - René Goscinny and Albert Uderzo (4/5)
 
 ## 2024
 
