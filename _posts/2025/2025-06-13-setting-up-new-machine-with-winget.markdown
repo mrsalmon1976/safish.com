@@ -21,23 +21,23 @@ winget install -id=GitExtensionsTeam.GitExtensions -e
 winget install -id=Meld.Meld -e
 winget install -id=Mozilla.Firefox -e
 winget install -id=dotPDN.PaintDotNet -e
-winget install --id=Microsoft.VisualStudioCode  -e
+winget install --id=Microsoft.VisualStudioCode -e
 winget install --id=Microsoft.VisualStudio.2022.Professional -e
 winget install --id Microsoft.SQLServerManagementStudio -e
-winget install --id=mRemoteNG.mRemoteNG  -e
-winget install --id=3TSoftwareLabs.Robo3T  -e
-winget install --id=Notion.Notion  -e
-winget install --id=Postman.Postman  -e
-winget install --id=Mythicsoft.AgentRansack  -e
-winget install --id=Microsoft.WSL  -e
-winget install --id=Docker.DockerDesktop  -e
-winget install --id=JGraph.Draw  -e
-winget install --id=OBSProject.OBSStudio  -e
-winget install --id=Greenshot.Greenshot  -e
-winget install --id=Microsoft.AzureCLI  -e
-winget install --id=Microsoft.Azure.StorageExplorer  -e
-winget install --id=Microsoft.Azure.FunctionsCoreTools  -e
-winget install --id=OpenJS.NodeJS  -e
+winget install --id=mRemoteNG.mRemoteNG -e
+winget install --id=3TSoftwareLabs.Robo3T -e
+winget install --id=Notion.Notion -e
+winget install --id=Postman.Postman -e
+winget install --id=Mythicsoft.AgentRansack -e
+winget install --id=Microsoft.WSL -e
+winget install --id=Docker.DockerDesktop -e
+winget install --id=JGraph.Draw -e
+winget install --id=OBSProject.OBSStudio -e
+winget install --id=Greenshot.Greenshot -e
+winget install --id=Microsoft.AzureCLI -e
+winget install --id=Microsoft.Azure.StorageExplorer -e
+winget install --id=Microsoft.Azure.FunctionsCoreTools -e
+winget install --id=OpenJS.NodeJS -e
 ```
 
 Now I can keep all these applications up to date with all the latest security patches with one command:
