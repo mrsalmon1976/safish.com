@@ -14,13 +14,13 @@ WinGet does provide a command line search function, but with over 8,000 packages
 This is the list of applications I install by default.  I use exact package name matching just to be sure I don't download something incorrectly.
 
 ```
-winget install -id=Google.Chrome -e
-winget install -id=Notepad++.Notepad++ -e
-winget install -id=Git.Git -e
-winget install -id=GitExtensionsTeam.GitExtensions -e
-winget install -id=Meld.Meld -e
-winget install -id=Mozilla.Firefox -e
-winget install -id=dotPDN.PaintDotNet -e
+winget install --id=Google.Chrome -e
+winget install --id=Notepad++.Notepad++ -e
+winget install --id=Git.Git -e
+winget install --id=GitExtensionsTeam.GitExtensions -e
+winget install --id=Meld.Meld -e
+winget install --id=Mozilla.Firefox -e
+winget install --id=dotPDN.PaintDotNet -e
 winget install --id=Microsoft.VisualStudioCode -e
 winget install --id=Microsoft.VisualStudio.2022.Professional -e
 winget install --id Microsoft.SQLServerManagementStudio -e
