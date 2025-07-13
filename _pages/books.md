@@ -15,6 +15,7 @@ The below list is incomplete prior to 2024.
 - [Asterix the Gaul](https://en.wikipedia.org/wiki/Asterix_the_Gaul) - René Goscinny and Albert Uderzo (4/5)
 - [Asterix and the Golden Sickle](https://en.wikipedia.org/wiki/Asterix_and_the_Golden_Sickle) - René Goscinny and Albert Uderzo (4/5)
 - [Asterix and the Goths](https://en.wikipedia.org/wiki/Asterix_and_the_Goths) - René Goscinny and Albert Uderzo (4/5)
+- [The Blacktongue Thief](https://www.goodreads.com/book/show/55077697-the-blacktongue-thief) - Christopher Buehlman (5/5)
 
 ## 2024
 
