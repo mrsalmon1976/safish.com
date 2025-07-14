@@ -16,8 +16,8 @@ You will need:
 
 - Two running instances of MongoDb
 - Administrative access to both servers and MongoDb instances
-- OpenSSL installed locally to generate a key file (I used the [Shining Light Productions version](https://slproweb.com/products/Win32OpenSSL.html) 
-  - `winget install --Id=ShiningLight.OpenSSL.Dev`)
+- OpenSSL installed locally to generate a key file - I used the [Shining Light Productions version](https://slproweb.com/products/Win32OpenSSL.html) 
+  - `winget install --Id=ShiningLight.OpenSSL.Dev`
 
 # Generate a Key file
 
@@ -43,7 +43,7 @@ security:
 Some important notes here:
  - When you restart your MongoDb instances after making these changes, they will be **inaccessible** until you fire up the replica set as per the next step
  - My keyfile is on Windows, for Linux you will need to apply permissions to the file and set a Linux path to the file.
- - It is also important note that YAML is very iffy with spacing and tabs.  Make sure all "empty" lines are really empty, and leading spaces are spaces and not tabs. Test this out before making your changes.
+ - It is also important ti note that YAML is very iffy with spacing and tabs.  Make sure all "empty" lines are really empty, and leading spaces are spaces and not tabs. Test this out before making your changes.
  
 # Initialize the Replica Set
 
@@ -55,7 +55,7 @@ On the **primary** instance, log into it via the shell
 mongo --username admin --password password --authenticationDatabase "admin"
 ```
 
-From the shell, initialise the replicate set, switching out `PRIMARY-HOST` with your server's host name:
+From the shell, initialise the replica set, switching out `PRIMARY-HOST` with your server's host name:
 
 ```js
 rs.initiate({
@@ -70,7 +70,7 @@ rs.initiate({
 Your **primary** server will now be open to connections, and you should be able to check the replication status:
 
 ```js
-rs.status()
+rs.status();
 ```
 
 Now, we can initialise replication, switching `SECONDARY-HOST` with your secondary server name:
@@ -86,7 +86,7 @@ With the current configuration, if your **primary** fails, your secondary will a
 Still connected to the mongo shell on the **primary** server, get the current config:
 
 ```js
-cfg = rs.conf()
+cfg = rs.conf();
 ```
 
 Set the secondary’s priority to 0.  You will need to work out where the secondary server is in the config members collection, although it will be at index 1 in this example of only two servers.  You can work it out by looking at `cfg.members[i].host`.
@@ -102,15 +102,15 @@ rs.reconfig(cfg);
 ```
 
 Once this is complete:
- - The secondary will still replicate all data.
- - It will never stand for election as primary.
+ - All data will still be replicated from the primary to the secondary.
+ - The secondary will never stand for election as primary.
 That means if your primary reboots:
  - The secondary stays as secondary.
  - The replica set will be read-only until the primary is back.
  
 # Monitoring 
 
-The commands can be used to monitor the status of replication:
+The following commands can be used to monitor the status of replication:
 
 ## Status
 
