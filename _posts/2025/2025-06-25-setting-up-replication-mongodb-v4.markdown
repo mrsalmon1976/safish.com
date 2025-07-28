@@ -32,7 +32,7 @@ openssl rand -base64 756 > mongodb-keyfile
 Add the following to your `mongodb.config` file (this is a YAML file) on BOTH servers:
 
 ```yaml
-  replication:
+replication:
   replSetName: rs0
 
 security:
@@ -119,6 +119,10 @@ This command can be run on both the primary and the secondary, and will show the
 ```js
 rs.status();
 ```
+
+For very large MongoDb instances, the initial synchronisation may take some time.  You can check on how it is progressing by running this command, and then looking for the `initialSyncStatus` node - this will give you details about the amount of data to be copied and the remaining time for the copy in the `remainingInitialSyncEstimatedMillis` property.
+
+
 
 ## Replication Info
 
