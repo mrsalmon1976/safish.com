@@ -108,6 +108,14 @@ That means if your primary reboots:
  - The secondary stays as secondary.
  - The replica set will be read-only until the primary is back.
  
+# Applications
+
+If you were running a Standalone instance, your application connection strings need to be changed to include the replication set:
+
+```
+mongodb://user:pass@host:27017/admin?replicaSet=rs0
+```
+ 
 # Monitoring 
 
 The following commands can be used to monitor the status of replication:
