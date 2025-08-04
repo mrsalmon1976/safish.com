@@ -86,6 +86,10 @@ permalink: /links
 - [Draw.io](https://github.com/jgraph/drawio-desktop/releases) - free diagrams/charts desktop tool
 - [https://excalidraw.com/](https://excalidraw.com/) - an amazing scratch tool that can turn words into charts
 
+## Network
+
+- [Sniffnet](https://sniffnet.net/) - monitor your Internet traffic
+
 ## Podcasts
 
 - [Hanselminutes](http://feeds.feedburner.com/HanselminutesCompleteMP3) - Scott Hanselman's podcast
