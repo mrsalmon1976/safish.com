@@ -42,5 +42,5 @@ permalink: /software/phototool
 These amazing, free libraries/packages are used to create PhotoTool:
 
 - [Avalonia UI](https://avaloniaui.net/)
-- [FaceAiSharp](https://github.com/georg-jung/FaceAiSharp/tree/master/src/FaceAiSharp)
+- [FaceAiSharp](https://github.com/georg-jung/FaceAiSharp)
 - [ImageSharp](https://github.com/SixLabors/ImageSharp)
