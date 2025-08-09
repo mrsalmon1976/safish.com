@@ -4,7 +4,7 @@ title: PhotoTool
 permalink: /software/phototool
 ---
 
-PhotoTool is a simple image processing application with some basic image functionality useful for your own photo library.
+[PhotoTool](https://github.com/mrsalmon1976/PhotoTool) is a simple image processing application with some basic image functionality useful for your own photo library.
 
 ## Features
 
@@ -19,9 +19,9 @@ PhotoTool is a simple image processing application with some basic image functio
 
 ## Requirements
 
-- Windows 7sp1
-- 4GB RAM recommended
-- A decent CPU and graphics card are useful when searching for faces
+- Windows 11
+- 8GB RAM recommended
+- A decent CPU and graphics card are useful (essential?) when searching for faces
 
 ## Screenshots
 
@@ -36,3 +36,11 @@ PhotoTool is a simple image processing application with some basic image functio
 ## Download 
 
 <a href="https://github.com/mrsalmon1976/PhotoTool/releases/latest" class="main">Download the latest version</a>
+
+## Libraries/Software
+
+These amazing, free libraries/packages are used to create PhotoTool:
+
+- [Avalonia UI](https://avaloniaui.net/)
+- [FaceAiSharp](https://github.com/georg-jung/FaceAiSharp/tree/master/src/FaceAiSharp)
+- [ImageSharp](https://github.com/SixLabors/ImageSharp)
