@@ -50,6 +50,7 @@ permalink: /links
 - [Polly](https://github.com/App-vNext/Polly) - resilience and transient-fault-handling library, including Retry, Rate Limits, etc
 - [Quartz.NET](https://www.quartz-scheduler.net/) - scheduler library
 - [MiniProfiler](https://miniprofiler.com/) - a free, very useful profiling tool for .NET and .NET Core
+- [Spectre.Console](https://spectreconsole.net/) - bring your console apps to life
 
 ## Editors
 
