@@ -6,11 +6,20 @@ permalink: /books
 
 The below list is incomplete prior to 2024.
 
+## 2026
+
+- [The First Law](https://en.wikipedia.org/wiki/The_First_Law) - Joe Abercrombie (5/5) (so good I read it again)
+  - The Blade Itself
+  - Before They Are Hanged
+  - Last Argument of Kings
+- [The Heroes](https://www.fantasybookreview.co.uk/Joe-Abercrombie/The-Heroes.html) - Joe Abercrombie (5/5)
+
 ## 2025
 
 - [Emperor Series](https://www.goodreads.com/series/44444-emperor) - Conn Iggulden (3/5)
   - [The Gates of Rome](https://www.goodreads.com/book/show/330947.The_Gates_of_Rome)
   - [The Death of Kings](https://www.goodreads.com/book/show/671724.The_Death_of_Kings)
+  - [Field of Swords](https://www.goodreads.com/book/show/6568176)
 - [Fatherland](https://en.wikipedia.org/wiki/Fatherland_(novel)) - Robert Harris (3/5)
 - [Asterix the Gaul](https://en.wikipedia.org/wiki/Asterix_the_Gaul) - René Goscinny and Albert Uderzo (4/5)
 - [Asterix and the Golden Sickle](https://en.wikipedia.org/wiki/Asterix_and_the_Golden_Sickle) - René Goscinny and Albert Uderzo (4/5)
