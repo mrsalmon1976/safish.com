@@ -9,9 +9,9 @@ The below list is incomplete prior to 2024.
 ## 2026
 
 - [The First Law](https://en.wikipedia.org/wiki/The_First_Law) - Joe Abercrombie (5/5) (so good I read it again)
-  - The Blade Itself
-  - Before They Are Hanged
-  - Last Argument of Kings
+  - Book 1: The Blade Itself
+  - Book 2: Before They Are Hanged
+  - Book 3: Last Argument of Kings
 - [The Heroes](https://www.fantasybookreview.co.uk/Joe-Abercrombie/The-Heroes.html) - Joe Abercrombie (5/5)
 
 ## 2025
