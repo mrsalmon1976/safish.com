@@ -7,6 +7,7 @@ published: true
 ---
 
 With the price of tokens set to soar, and coding with AI now the norm, running local models is becoming increasingly important to minimise costs.  
+
 I use Claude Code on a Windows machine as my primary development tool, with Gemini Flash for reviews.  However, if I do start hitting limits, I use local models for simpler tasks.
 
 I have a Mac Mini M4 with 24GB of RAM, but hosting and running coding models is not completely straight-forward.  The following combinations have worked for me:
