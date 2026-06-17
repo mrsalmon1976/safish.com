@@ -1,0 +1,46 @@
+---
+layout: post
+title: Running coding models on an Apple Mac mini M4
+date: 2026-06-17 21:29:00
+tags: [apple,ai]
+published: true
+---
+
+With the price of tokens set to soar, and coding with AI now the norm, running local models is becoming increasingly important to minimise costs.  
+I use Claude Code on a Windows machine as my primary development tool, with Gemini Flash for reviews.  However, if I do start hitting limits, I use local models for simpler tasks.
+
+I have a Mac Mini M4 with 24GB of RAM, but hosting and running coding models is not completely straight-forward.  The following combinations have worked for me:
+
+
+# oMLX, Claude Code, Gemma4
+
+**Software**
+
+- *Server*: [oMLX](https://omlx.ai) running on my Mac Mini
+- *Model*: gemma-4-E4B-it-MLX-4bit
+- *Coding Tool*: Claude Code (configured per below)
+
+**Startup Script** 
+
+If I want to switch to a local model, I use this script to configure Claude in a single console session.
+
+```powershell
+$model = "gemma-4-E4B-it-MLX-4bit"
+
+# Redirect Claude Code to your local Ollama server
+$env:ANTHROPIC_BASE_URL = "http://172.168.1.74:8000"
+$env:ANTHROPIC_API_KEY = ""
+$env:ANTHROPIC_AUTH_TOKEN = ""
+
+# Map Claude Code's model tier requests to your local model name
+$env:ANTHROPIC_DEFAULT_SONNET_MODEL = $model
+$env:ANTHROPIC_DEFAULT_HAIKU_MODEL = $model
+$env:ANTHROPIC_DEFAULT_OPUS_MODEL = $model
+$env:ANTHROPIC_MODEL = $model
+$env:API_TIMEOUT_MS = "3000000"
+$env:CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC = "1"
+
+# launch Claude
+claude
+```
+
