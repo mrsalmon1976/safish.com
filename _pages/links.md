@@ -27,6 +27,7 @@ permalink: /links
 - [Replicate](https://replicate.com/) - provides access to trained AI models via API
 - [Napkin](https://www.napkin.ai/) - generate visuals from text
 - [Mistral](https://mistral.ai/) - open-weight LLMs, as well as more sophisticated models via API (multiple clients available)
+- [oMLX](https://omlx.ai/) - macOS native MLX server
 
 ## Careers
 
@@ -72,6 +73,10 @@ permalink: /links
 ## jQuery
 
 - [Reveal](https://zurb.com/playground/reveal-modal-plugin) - very nice modal dialog implementation
+
+## Markdown Editors and Tools
+
+- Milkdown Editor](https://milkdown.dev/playground
 
 ## MongoDb
 
