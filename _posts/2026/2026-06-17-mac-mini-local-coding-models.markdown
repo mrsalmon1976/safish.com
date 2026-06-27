@@ -12,6 +12,17 @@ I use Claude Code on a Windows machine as my primary development tool, with Gemi
 
 I have a Mac Mini M4 with 24GB of RAM, but hosting and running coding models is not completely straight-forward.  The following combinations have worked for me:
 
+# Mac Mini Settings
+
+Run this command in your Mac's terminal to raise the GPU memory ceiling to 20 GB (20,480 MB).
+
+```
+sudo sysctl iogpu.wired_limit_mb=20480
+```
+
+# oMLX Settings
+
+- Memory guard: Aggressive
 
 # oMLX, Claude Code, Gemma4
 
@@ -29,7 +40,7 @@ If I want to switch to a local model, I use this script to configure Claude in a
 $model = "gemma-4-E4B-it-MLX-4bit"
 
 # Redirect Claude Code to your local Ollama server
-$env:ANTHROPIC_BASE_URL = "http://172.168.1.74:8000"
+$env:ANTHROPIC_BASE_URL = "http://192.168.0.174:8000"
 $env:ANTHROPIC_API_KEY = ""
 $env:ANTHROPIC_AUTH_TOKEN = ""
 
@@ -42,6 +53,6 @@ $env:API_TIMEOUT_MS = "3000000"
 $env:CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC = "1"
 
 # launch Claude
-claude
+claude --bare --exclude-dynamic-system-prompt-sections
 ```
 
