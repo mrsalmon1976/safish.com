@@ -29,7 +29,7 @@ sudo sysctl iogpu.wired_limit_mb=20480
 **Software**
 
 - *Server*: [oMLX](https://omlx.ai) running on my Mac Mini
-- *Model*: gemma-4-E4B-it-MLX-4bit
+- *Model*: gemma-4-E4B-it-MLX-4bit / gemma-4-12B-it-OptiQ-4bit
 - *Coding Tool*: Claude Code (configured per below)
 
 **Startup Script** 
@@ -37,7 +37,7 @@ sudo sysctl iogpu.wired_limit_mb=20480
 If I want to switch to a local model, I use this script to configure Claude in a single console session.
 
 ```powershell
-$model = "gemma-4-E4B-it-MLX-4bit"
+$model = "gemma-4-12B-it-OptiQ-4bit"
 
 # Redirect Claude Code to your local Ollama server
 $env:ANTHROPIC_BASE_URL = "http://192.168.0.174:8000"
@@ -52,7 +52,11 @@ $env:ANTHROPIC_MODEL = $model
 $env:API_TIMEOUT_MS = "3000000"
 $env:CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC = "1"
 
+$env:DISABLE_AUTOUPDATER = "1"
+$env:DISABLE_TELEMETRY = "1"
+$env:DISABLE_ERROR_REPORTING = "1"
+
 # launch Claude
-claude --bare --exclude-dynamic-system-prompt-sections
+claude --bare --exclude-dynamic-system-prompt-sections --strict-mcp-config --tools "Bash,Read,Edit,Write,Glob,Grep,WebSearch,WebFetch"
 ```
 
