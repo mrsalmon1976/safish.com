@@ -12,7 +12,9 @@ The below list is incomplete prior to 2024.
   - Book 1: The Blade Itself
   - Book 2: Before They Are Hanged
   - Book 3: Last Argument of Kings
+- [Best Served Cold](https://www.fantasybookreview.co.uk/Joe-Abercrombie/Best-Served-Cold.html) - Joe Abercrombie (5/5)
 - [The Heroes](https://www.fantasybookreview.co.uk/Joe-Abercrombie/The-Heroes.html) - Joe Abercrombie (5/5)
+- [Red Country](https://www.fantasybookreview.co.uk/Joe-Abercrombie/Red-Country.html) - Joe Abercrombie (5/5)
 
 ## 2025
 

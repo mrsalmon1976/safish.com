@@ -17,3 +17,4 @@ I also use it to host some of the software I have written and/or maintain, as we
 ### Other
 
  - [Books](/books)
+ - [Travel](/travel)
