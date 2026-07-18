@@ -74,6 +74,9 @@ js: /assets/js/travel-map.js
 .world-map-country--visited {
   fill: #68b5c5;
 }
+.world-map-marker {
+  stroke-width: 1;
+}
 .world-map-tooltip {
   position: absolute;
   z-index: 10;

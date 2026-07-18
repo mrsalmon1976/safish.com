@@ -137,6 +137,37 @@
   var path = d3.geoPath(projection);
   var countries = [];
 
+  function onCountryMouseMove(event, d) {
+    var rect = container.getBoundingClientRect();
+    var name = (d.properties && d.properties.name) || '';
+    tooltip
+      .text(name)
+      .style('opacity', 1)
+      .style('left', (event.clientX - rect.left + 12) + 'px')
+      .style('top', (event.clientY - rect.top + 12) + 'px');
+  }
+
+  function onCountryMouseLeave() {
+    tooltip.style('opacity', 0);
+  }
+
+  function onCountryClick(event, d) {
+    var name = (d.properties && d.properties.name) || '';
+    var images = photosFor(name);
+    if (images) {
+      openGallery(name, images);
+    }
+  }
+
+  var MIN_VISIBLE_SIZE = 6;
+
+  function isTooSmallToSee(feature) {
+    var bounds = path.bounds(feature);
+    var w = bounds[1][0] - bounds[0][0];
+    var h = bounds[1][1] - bounds[0][1];
+    return !(w >= MIN_VISIBLE_SIZE || h >= MIN_VISIBLE_SIZE);
+  }
+
   function render() {
     var width = container.clientWidth || 900;
     var height = Math.round(width * 0.52);
@@ -154,25 +185,27 @@
         return isVisited(name) ? 'world-map-country world-map-country--visited' : 'world-map-country';
       })
       .attr('d', path)
-      .on('mousemove', function (event, d) {
-        var rect = container.getBoundingClientRect();
-        var name = (d.properties && d.properties.name) || '';
-        tooltip
-          .text(name)
-          .style('opacity', 1)
-          .style('left', (event.clientX - rect.left + 12) + 'px')
-          .style('top', (event.clientY - rect.top + 12) + 'px');
-      })
-      .on('mouseleave', function () {
-        tooltip.style('opacity', 0);
-      })
-      .on('click', function (event, d) {
-        var name = (d.properties && d.properties.name) || '';
-        var images = photosFor(name);
-        if (images) {
-          openGallery(name, images);
-        }
-      });
+      .on('mousemove', onCountryMouseMove)
+      .on('mouseleave', onCountryMouseLeave)
+      .on('click', onCountryClick);
+
+    // Small island nations can be sub-pixel at world-map scale, making a
+    // visited marking invisible. Draw a fixed-size dot on top for those.
+    var markerCountries = countries.filter(function (d) {
+      var name = (d.properties && d.properties.name) || '';
+      return isVisited(name) && isTooSmallToSee(d);
+    });
+
+    countryGroup.selectAll('circle.world-map-marker')
+      .data(markerCountries)
+      .join('circle')
+      .attr('class', 'world-map-country world-map-country--visited world-map-marker')
+      .attr('cx', function (d) { return path.centroid(d)[0]; })
+      .attr('cy', function (d) { return path.centroid(d)[1]; })
+      .attr('r', 3.5)
+      .on('mousemove', onCountryMouseMove)
+      .on('mouseleave', onCountryMouseLeave)
+      .on('click', onCountryClick);
   }
 
   function splitOverseasPolygons(feature, lonThreshold) {
