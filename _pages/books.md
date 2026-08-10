@@ -15,6 +15,7 @@ The below list is incomplete prior to 2024.
 - [Best Served Cold](https://www.fantasybookreview.co.uk/Joe-Abercrombie/Best-Served-Cold.html) - Joe Abercrombie (5/5)
 - [The Heroes](https://www.fantasybookreview.co.uk/Joe-Abercrombie/The-Heroes.html) - Joe Abercrombie (5/5)
 - [Red Country](https://www.fantasybookreview.co.uk/Joe-Abercrombie/Red-Country.html) - Joe Abercrombie (5/5)
+- [Modern CTO](https://www.amazon.com/Modern-CTO-Joel-Beasley/dp/0692076069) - Joel Beasley (2/5)
 
 ## 2025
 
