@@ -11,7 +11,7 @@
     'Seychelles': null,
     'Madagascar': null,
     'United States of America': 'usa',
-    'United Kingdom': null,
+    'United Kingdom': 'uk',
     'Switzerland': null,
     'France': null,
     'Andorra': null,
