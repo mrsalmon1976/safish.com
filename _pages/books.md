@@ -16,6 +16,7 @@ The below list is incomplete prior to 2024.
 - [The Heroes](https://www.fantasybookreview.co.uk/Joe-Abercrombie/The-Heroes.html) - Joe Abercrombie (5/5)
 - [Red Country](https://www.fantasybookreview.co.uk/Joe-Abercrombie/Red-Country.html) - Joe Abercrombie (5/5)
 - [Modern CTO](https://www.amazon.com/Modern-CTO-Joel-Beasley/dp/0692076069) - Joel Beasley (2/5)
+- [The Gods of War](https://www.goodreads.com/book/show/221298.The_Gods_of_War) - Conn Iggulden (3/5)
 
 ## 2025
 
