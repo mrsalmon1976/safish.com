@@ -52,11 +52,11 @@ When leading a large technical team, I've found that all things are circular.  A
  - Implement global error handlers and make errors visible.  Add notifications of errors.
  - Implement metrics.  How do you know if something is getting better or worse, if you can't measure it?
 
- ## Problem Solving
+## Problem Solving
 
  - Every problem should be tested against more than one solution.  Deliberately trying different ways of solving something often reveals optimisations for or flaws in what seems to be the best solution. 
 
- # Key Behaviours
+## Key Behaviours
 
  - Innovation
  - Identify whitespace - find hidden gaps, unmet needs, untouched opportunities
