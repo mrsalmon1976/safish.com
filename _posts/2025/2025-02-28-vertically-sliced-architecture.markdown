@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vertically Sliced Architecture
+title: Vertical Slice Architecture
 date: 2025-02-28 11:32:00
 tags: [architecture]
 published: true
