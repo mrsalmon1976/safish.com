@@ -1,6 +1,6 @@
-var cicvue = new Vue({
-	el: '#cic-app',
-	data: {
+var cicvue = Vue.createApp({
+	data: function() {
+		return {
       compounding: 12,
       futureValue: null,
       interestEarned: null,
@@ -10,6 +10,7 @@ var cicvue = new Vue({
 	    interestRateState: -1,
 	    periodRangeState: -1,
 
+		};
 	},
 	// define methods under the `methods` object
 	methods: {
@@ -76,7 +77,7 @@ var cicvue = new Vue({
 				
 	    }
 	}
-});
+}).mount('#cic-app');
 
 // fire up the datepicker
 var datePicker = $('#periodDatePicker').datepicker({

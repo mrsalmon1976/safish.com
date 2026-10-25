@@ -1,6 +1,6 @@
-var mcvue = new Vue({
-	el: '#mc-app',
-	data: {
+var mcvue = Vue.createApp({
+	data: function() {
+		return {
 	    propertyValue: null,
 	    propertyValueState: -1,
 	    deposit: null,
@@ -11,6 +11,7 @@ var mcvue = new Vue({
 	    interestRateState: -1,
 	    monthlyRepayments: null,
 	    interestOnly: null
+		};
 	},
 	// define methods under the `methods` object
 	methods: {
@@ -81,5 +82,5 @@ var mcvue = new Vue({
 				}
 	    }
 	}
-});
+}).mount('#mc-app');
 

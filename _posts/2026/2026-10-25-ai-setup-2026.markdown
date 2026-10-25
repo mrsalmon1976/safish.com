@@ -1,0 +1,34 @@
+---
+layout: post
+title: AI Setup (2026)
+date: 2026-10-25 10:58:00
+tags: [ai]
+published: true
+---
+
+This document is and will probably remain, incomplete.  I am using it to document some local AI setup items for 2026, as a reminder so I can see how this shifts over time.
+
+# Claude Code
+
+I use Claude (mostly with Opus 5.5) for literally everything at work.  Every folder that I work in, now gets initialised in Claude Code using the CLI - and this includes non-code projects.
+
+## Skills
+
+Skills are stored in OneDrive and syncced across machines.  My folder in OneDrive is `<OneDrive>\ai\claude-skills`.  When I set up a new machine, I1 do the following:
+
+- navigate to the `.claude` folder on the machine, e.g. `C:\Users\matt\.claude`
+- delete the existing `skills` folder
+- create a symlink: 
+  ```
+   New-Item -ItemType SymbolicLink -Path "C:\Users\matt\.claude\skills" -Target "C:\Users\matt\OneDrive\ai\claude-skills"
+  ```
+
+You can then create your skills in your OneDrive folder.  Remember, each skill must:
+- have it's own folder e.g. `my-scan-emails`
+- have a `SKILL.md` in the that folder
+
+Once that is set up, you can then call your skills from within the CLI, e.g/ `/my-scan-emails`
+
+# AntiGravity
+
+I use AntiGravity as my second in command.  While Claude Code is my go-to, I will use Anti-Gravity to do code reviews, plan reviews, or generally just scan outcomes looking for bugs or logic flaws. 

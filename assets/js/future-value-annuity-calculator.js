@@ -1,6 +1,6 @@
-var fvavue = new Vue({
-	el: '#fva-app',
-	data: {
+var fvavue = Vue.createApp({
+	data: function() {
+		return {
 		presentValue: null,
     presentValueState: -1,
 		interestRate: null,
@@ -10,6 +10,7 @@ var fvavue = new Vue({
 		contribution: null,
 		contributionState: -1,
 		futureValue: null,
+		};
 	},
 	// define methods under the `methods` object
 	methods: {
@@ -75,5 +76,5 @@ var fvavue = new Vue({
 		    }
       }	    
 	}
-});
+}).mount('#fva-app');
 

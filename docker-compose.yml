@@ -6,8 +6,8 @@ services:
       - "35729:35729" # livereload
     volumes:
       - .:/srv/jekyll
-      - jekyll-bundle:/usr/local/bundle
+      - jekyll-bundle-ruby33:/usr/local/bundle
     command: bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling --future
 
 volumes:
-  jekyll-bundle:
+  jekyll-bundle-ruby33:

@@ -19,7 +19,7 @@ bundle exec jekyll serve
 bundle exec jekyll build --future
 ```
 
-CI (`.github/workflows/ci.yml`) builds the site on every push/PR using the `jekyll/builder:3.8` Docker image — there is no test suite; a successful `jekyll build --future` is the only check. If changing Ruby dependencies or plugins, verify the Docker-based build still works, since local Jekyll versions can drift from what CI uses.
+CI (`.github/workflows/ci.yml`) builds the site on every push/PR on Ruby 3.3 via `ruby/setup-ruby` (matching the `ruby:3.3-slim` base image in `Dockerfile` and the Ruby version GitHub Pages uses) — there is no test suite; a successful `jekyll build --future` is the only check. If changing Ruby dependencies or plugins, keep the Ruby version in `Dockerfile` and `ci.yml` in sync.
 
 ### Local development on Windows (Docker)
 
@@ -41,7 +41,7 @@ Then browse to `http://localhost:4000`.
 - **Editing a post, page, or `_config.yml`**: just save the file. The container runs `jekyll serve --force_polling`, which polls the bind-mounted files (inotify doesn't propagate reliably through Windows bind mounts) and regenerates automatically — no rebuild or restart needed.
 - **Editing `Gemfile` or `Dockerfile`**: rerun with `--build` so gems get reinstalled into the image.
 - The first `Generating...` pass after a fresh `--build` takes 2-3 minutes (Windows bind-mount overhead across 20+ years of posts in `_posts/`); incremental regenerations after that are much faster.
-- Gems are cached in a named volume (`jekyll-bundle`) separate from the bind-mounted source, so they persist across `docker compose up` runs without needing a rebuild.
+- Gems are cached in a named volume (`jekyll-bundle-ruby33`) separate from the bind-mounted source, so they persist across `docker compose up` runs without needing a rebuild.
 
 ## Content architecture
 
